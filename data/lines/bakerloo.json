@@ -1,0 +1,208 @@
+{
+  "line": "bakerloo",
+  "name": "Bakerloo",
+  "color": "#B36305",
+  "stationOrder": [
+    "harrow-wealdstone", "kenton", "south-kenton", "north-wembley", "wembley-central",
+    "stonebridge-park", "harlesden", "willesden-junction", "kensal-green", "queens-park",
+    "kilburn-park", "maida-vale", "warwick-avenue", "paddington", "edgware-road-bakerloo",
+    "marylebone", "baker-street", "regents-park", "oxford-circus", "piccadilly-circus",
+    "charing-cross", "embankment", "waterloo", "lambeth-north", "elephant-castle"
+  ],
+  "entries": [
+    {
+      "id": "hw-001",
+      "stationId": "harrow-wealdstone",
+      "category": "fact",
+      "title": "Britain's worst peacetime rail disaster",
+      "desc": "The 1952 Harrow & Wealdstone crash killed 112 people here — still the UK's deadliest peacetime rail accident. A memorial plaque is at the station.",
+      "tags": ["dark"],
+      "source": "curated"
+    },
+    {
+      "id": "hw-002",
+      "stationId": "harrow-wealdstone",
+      "category": "history",
+      "title": "The Weald Stone",
+      "desc": "The sarsen stone (same rock as Stonehenge) that named the whole district. Grade II listed, unmarked, embedded in the pavement outside Bombay Central (ex-Red Lion pub). Vanished in 1549, reappeared in 1834.",
+      "address": "328 High Road, Harrow Weald, HA3 6QD",
+      "mapsQuery": "Bombay Central Harrow Weald",
+      "tags": ["free", "quirky"],
+      "source": "curated",
+      "stretch": true
+    },
+    {
+      "id": "hw-003",
+      "stationId": "harrow-wealdstone",
+      "category": "spoons",
+      "title": "The Moon on the Hill",
+      "desc": "Nearest Spoons — down Station Road towards Harrow centre. Named after Orwell's essay on the perfect fictional pub, 'The Moon Under Water'.",
+      "address": "373-375 Station Road, Harrow, HA1 2AW",
+      "tags": [],
+      "source": "curated",
+      "stretch": true
+    },
+    {
+      "id": "hw-004",
+      "stationId": "harrow-wealdstone",
+      "category": "oddity",
+      "title": "Harrow Skate Park",
+      "desc": "One of the country's oldest surviving skate parks, inside Byron Recreation Ground — 1970s concrete by renowned designer Adrian Rolt, whose sister park the 'Rom' in Romford is Grade II listed. A pilgrimage site for the UK skate scene.",
+      "address": "Byron Recreation Ground, Christchurch Ave, Wealdstone, HA3 5BD",
+      "tags": ["free", "outdoor"],
+      "source": "curated"
+    },
+    {
+      "id": "hw-005",
+      "stationId": "harrow-wealdstone",
+      "category": "park",
+      "title": "Byron Recreation Ground",
+      "desc": "Edwardian park named for Lord Byron, who was schooled at Harrow. Formal beds near the entrance, a line of Lombardy poplars, and the borough's leisure centre and skate park alongside.",
+      "address": "Byron Recreation Ground, Christchurch Ave, HA3 5BD",
+      "tags": ["free", "outdoor", "picnic"],
+      "source": "curated"
+    },
+    {
+      "id": "hw-006",
+      "stationId": "harrow-wealdstone",
+      "category": "park",
+      "title": "Wealdstone Cemetery",
+      "desc": "Small, quiet 1902 burial ground tucked behind Byron park (entered through it), with serpentine paths, scattered war graves and gravestones set in grass — a proper hidden pocket of calm.",
+      "address": "via Byron Recreation Ground, Stuart Road entrance",
+      "tags": ["free", "hidden", "quiet", "cemetery"],
+      "source": "curated"
+    },
+    {
+      "id": "hw-007",
+      "stationId": "harrow-wealdstone",
+      "category": "sight",
+      "title": "Headstone Manor & Museum",
+      "desc": "Moated 14th-century manor house with a free local-history museum and a medieval great barn, west towards Headstone.",
+      "address": "Headstone Manor, Pinner View, HA2 6PX",
+      "tags": ["free", "medieval"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "wa-001",
+      "stationId": "warwick-avenue",
+      "category": "sight",
+      "title": "Little Venice & Browning's Pool",
+      "desc": "The basin where Regent's Canal meets the Grand Union. Named (jokingly) by Byron or Browning depending who you believe; the pool honours Browning, who lived here 25 years.",
+      "address": "Blomfield Road, W9",
+      "tags": ["free", "outdoor", "canalside"],
+      "source": "curated"
+    },
+    {
+      "id": "wa-002",
+      "stationId": "warwick-avenue",
+      "category": "oddity",
+      "title": "Puppet Theatre Barge",
+      "desc": "A 50-seat marionette theatre inside a converted 1930s Thames lighter, moored in Little Venice Oct–June. Repertoire runs from Brer Rabbit to Lorca.",
+      "address": "Blomfield Road, W9 2PF",
+      "tags": ["quirky", "family"],
+      "source": "curated"
+    },
+    {
+      "id": "wa-003",
+      "stationId": "warwick-avenue",
+      "category": "indie_pub",
+      "title": "The Prince Alfred",
+      "desc": "Spectacular 1860s Victorian pub, famous for its original carved 'snob screens' dividing the bar into five snugs you crawl between through waist-high doors.",
+      "address": "5a Formosa Street, W9 1EE",
+      "tags": ["quirky", "victorian"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "wa-004",
+      "stationId": "warwick-avenue",
+      "category": "sight",
+      "title": "Waterbus to London Zoo",
+      "desc": "Canal boats run from Little Venice around Regent's Park to the Zoo and Camden — arriving at Camden Market by water beats the Northern line.",
+      "address": "Little Venice waterbus stop, Blomfield Road",
+      "tags": ["outdoor", "canalside"],
+      "source": "curated"
+    },
+    {
+      "id": "wa-005",
+      "stationId": "warwick-avenue",
+      "category": "fact",
+      "title": "Turing was born up the road",
+      "desc": "Alan Turing was born at 2 Warrington Crescent, now the Colonnade Hotel — blue plaque on the front.",
+      "address": "2 Warrington Crescent, W9 1ER",
+      "tags": ["free"],
+      "source": "curated"
+    },
+    {
+      "id": "wa-006",
+      "stationId": "warwick-avenue",
+      "category": "park",
+      "title": "Rembrandt Gardens",
+      "desc": "Small waterside garden on the edge of Browning's Pool — the best bench in Little Venice for watching the narrowboats. Named for Amsterdam's 1975 700th anniversary.",
+      "address": "Warwick Avenue, W2",
+      "tags": ["free", "canalside", "hidden-garden"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "mv-001",
+      "stationId": "maida-vale",
+      "category": "fact",
+      "title": "The 'Ladies' Tube station'",
+      "desc": "When Maida Vale opened on 6 June 1915, it was the first Underground station staffed entirely by women — so extraordinary at the time it made The Times.",
+      "tags": ["free"],
+      "source": "curated"
+    },
+    {
+      "id": "mv-002",
+      "stationId": "maida-vale",
+      "category": "park",
+      "title": "Paddington Recreation Ground",
+      "desc": "Big Victorian rec ground just past the station — Roger Bannister trained here before his four-minute mile. Café, tennis, proper running track.",
+      "address": "Randolph Ave, W9 1PD",
+      "tags": ["free", "outdoor"],
+      "source": "curated"
+    },
+    {
+      "id": "bs-001",
+      "stationId": "baker-street",
+      "category": "spoons",
+      "title": "The Metropolitan Bar",
+      "desc": "Spoons directly above the platforms, in the 1913 Chiltern Court Restaurant — cavernous hall with railway-company coats of arms on the ceiling. Entrance sits between two tube exits.",
+      "address": "7 Station Approach, Marylebone Rd, NW1 5LA",
+      "tags": ["grand-interior"],
+      "source": "curated"
+    },
+    {
+      "id": "bs-002",
+      "stationId": "baker-street",
+      "category": "fact",
+      "title": "Where the Underground began",
+      "desc": "Baker Street opened in 1863 on the Metropolitan Railway, the world's first underground line — it still runs beneath the Spoons. H.G. Wells lived in Chiltern Court above the station and wrote The Shape of Things to Come there.",
+      "tags": ["free"],
+      "source": "curated"
+    },
+    {
+      "id": "bs-003",
+      "stationId": "baker-street",
+      "category": "sight",
+      "title": "221B & the Holmes statue",
+      "desc": "The Sherlock Holmes Museum trades as 221B Baker Street; a 3m bronze Holmes stands outside the station exit.",
+      "address": "221b Baker Street, NW1 6XE",
+      "tags": ["touristy"],
+      "source": "curated"
+    },
+    {
+      "id": "bs-004",
+      "stationId": "baker-street",
+      "category": "park",
+      "title": "Regent's Park",
+      "desc": "Two minutes north — 395 acres, the rose gardens in Queen Mary's Gardens are the best free flower display in London (peak June), plus the Open Air Theatre in summer.",
+      "address": "Regent's Park, NW1",
+      "tags": ["free", "outdoor", "picnic"],
+      "source": "curated"
+    }
+  ]
+}

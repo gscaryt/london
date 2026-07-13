@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "stations": [
+    { "id": "harrow-wealdstone", "name": "Harrow & Wealdstone", "lines": ["bakerloo", "overground"], "borough": "Harrow", "zone": "5", "lat": 51.5923, "lon": -0.3351, "verified": true },
+    { "id": "kenton", "name": "Kenton", "lines": ["bakerloo", "overground"], "borough": "Harrow", "zone": "4", "lat": null, "lon": null, "verified": false },
+    { "id": "south-kenton", "name": "South Kenton", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
+    { "id": "north-wembley", "name": "North Wembley", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
+    { "id": "wembley-central", "name": "Wembley Central", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
+    { "id": "stonebridge-park", "name": "Stonebridge Park", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "3", "lat": null, "lon": null, "verified": false },
+    { "id": "harlesden", "name": "Harlesden", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "3", "lat": null, "lon": null, "verified": false },
+    { "id": "willesden-junction", "name": "Willesden Junction", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2/3", "lat": null, "lon": null, "verified": false },
+    { "id": "kensal-green", "name": "Kensal Green", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
+    { "id": "queens-park", "name": "Queen's Park", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
+    { "id": "kilburn-park", "name": "Kilburn Park", "lines": ["bakerloo"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
+    { "id": "maida-vale", "name": "Maida Vale", "lines": ["bakerloo"], "borough": "Westminster", "zone": "2", "lat": 51.5299, "lon": -0.1857, "verified": true },
+    { "id": "warwick-avenue", "name": "Warwick Avenue", "lines": ["bakerloo"], "borough": "Westminster", "zone": "2", "lat": 51.5235, "lon": -0.1835, "verified": true },
+    { "id": "paddington", "name": "Paddington", "lines": ["bakerloo", "circle", "district", "hammersmith-city", "elizabeth"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "edgware-road-bakerloo", "name": "Edgware Road (Bakerloo)", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "marylebone", "name": "Marylebone", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "baker-street", "name": "Baker Street", "lines": ["bakerloo", "circle", "hammersmith-city", "jubilee", "metropolitan"], "borough": "Westminster", "zone": "1", "lat": 51.5226, "lon": -0.1571, "verified": true },
+    { "id": "regents-park", "name": "Regent's Park", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "oxford-circus", "name": "Oxford Circus", "lines": ["bakerloo", "central", "victoria"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "piccadilly-circus", "name": "Piccadilly Circus", "lines": ["bakerloo", "piccadilly"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "charing-cross", "name": "Charing Cross", "lines": ["bakerloo", "northern"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "embankment", "name": "Embankment", "lines": ["bakerloo", "circle", "district", "northern"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "waterloo", "name": "Waterloo", "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"], "borough": "Lambeth", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "lambeth-north", "name": "Lambeth North", "lines": ["bakerloo"], "borough": "Lambeth", "zone": "1", "lat": null, "lon": null, "verified": false },
+    { "id": "elephant-castle", "name": "Elephant & Castle", "lines": ["bakerloo", "northern"], "borough": "Southwark", "zone": "1/2", "lat": null, "lon": null, "verified": false }
+  ]
+}
