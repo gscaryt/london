@@ -1,0 +1,27 @@
+{
+  "line": "lioness",
+  "name": "Lioness line",
+  "color": "#FAA61A",
+  "stationOrder": [
+    "euston",
+    "south-hampstead",
+    "kilburn-high-road",
+    "queens-park",
+    "kensal-green",
+    "willesden-junction",
+    "harlesden",
+    "stonebridge-park",
+    "wembley-central",
+    "north-wembley",
+    "south-kenton",
+    "kenton",
+    "harrow-wealdstone",
+    "headstone-lane",
+    "hatch-end",
+    "carpenders-park",
+    "bushey",
+    "watford-high-street",
+    "watford-junction"
+  ],
+  "entries": []
+}

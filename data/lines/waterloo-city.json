@@ -1,0 +1,10 @@
+{
+  "line": "waterloo-city",
+  "name": "Waterloo & City",
+  "color": "#95CDBA",
+  "stationOrder": [
+    "bank",
+    "waterloo"
+  ],
+  "entries": []
+}

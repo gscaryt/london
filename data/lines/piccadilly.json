@@ -2,8 +2,95 @@
   "line": "piccadilly",
   "name": "Piccadilly",
   "color": "#003688",
-  "stationOrder": [
-    "manor-house", "finsbury-park", "holloway-road", "covent-garden", "piccadilly-circus"
+  "route": [
+    {
+      "stations": [
+        "cockfosters",
+        "oakwood",
+        "southgate",
+        "arnos-grove",
+        "bounds-green",
+        "wood-green",
+        "turnpike-lane",
+        "manor-house",
+        "finsbury-park",
+        "arsenal",
+        "holloway-road",
+        "caledonian-road",
+        "kings-cross-st-pancras",
+        "russell-square",
+        "holborn",
+        "covent-garden",
+        "leicester-square",
+        "piccadilly-circus",
+        "green-park",
+        "hyde-park-corner",
+        "knightsbridge",
+        "south-kensington",
+        "gloucester-road",
+        "earls-court",
+        "barons-court",
+        "hammersmith",
+        "turnham-green",
+        "acton-town"
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "heathrow-t5",
+          "name": "Heathrow T5",
+          "stations": [
+            "south-ealing",
+            "northfields",
+            "boston-manor",
+            "osterley",
+            "hounslow-east",
+            "hounslow-central",
+            "hounslow-west",
+            "hatton-cross",
+            "heathrow-terminals-2-3",
+            "heathrow-terminal-5"
+          ]
+        },
+        {
+          "id": "heathrow-t4",
+          "name": "Heathrow T4",
+          "stations": [
+            "south-ealing",
+            "northfields",
+            "boston-manor",
+            "osterley",
+            "hounslow-east",
+            "hounslow-central",
+            "hounslow-west",
+            "hatton-cross",
+            "heathrow-terminals-2-3",
+            "heathrow-terminal-4"
+          ]
+        },
+        {
+          "id": "uxbridge",
+          "name": "Uxbridge branch",
+          "stations": [
+            "ealing-common",
+            "north-ealing",
+            "park-royal",
+            "alperton",
+            "sudbury-town",
+            "sudbury-hill",
+            "south-harrow",
+            "rayners-lane",
+            "eastcote",
+            "ruislip-manor",
+            "ruislip",
+            "ickenham",
+            "hillingdon",
+            "uxbridge"
+          ]
+        }
+      ]
+    }
   ],
   "entries": [
     {
@@ -13,7 +100,11 @@
       "title": "The Finsbury",
       "desc": "Green Lanes pub known for some of the best pizza in London and free live gigs — a short walk from the station despite the name pointing to Finsbury Park.",
       "address": "36 Green Lanes, London N4 2NA",
-      "tags": ["live-music", "food"],
+      "tags": [
+        "city-stack",
+        "live-music",
+        "food"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -24,7 +115,9 @@
       "title": "The Hercules",
       "desc": "Nearly 150 years on Holloway Road, refitted throughout with reclaimed materials.",
       "address": "504 Holloway Road, London N7 6JA",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -35,7 +128,9 @@
       "title": "The Bull and Egret",
       "desc": "First licensed in 1704 on Covent Garden's main drag, back in independent ownership after years as a chain pub.",
       "address": "81-82 Long Acre, London WC2E 9NG",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     }

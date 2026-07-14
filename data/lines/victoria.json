@@ -3,8 +3,22 @@
   "name": "Victoria",
   "color": "#0098D4",
   "stationOrder": [
-    "finsbury-park", "highbury-islington", "warren-street", "oxford-circus",
-    "victoria", "pimlico", "vauxhall"
+    "walthamstow-central",
+    "blackhorse-road",
+    "tottenham-hale",
+    "seven-sisters",
+    "finsbury-park",
+    "highbury-islington",
+    "kings-cross-st-pancras",
+    "euston",
+    "warren-street",
+    "oxford-circus",
+    "green-park",
+    "victoria",
+    "pimlico",
+    "vauxhall",
+    "stockwell",
+    "brixton"
   ],
   "entries": [
     {
@@ -14,7 +28,10 @@
       "title": "The Royal Oak Pimlico",
       "desc": "Eccentric Pimlico corner pub covered in pop art and vintage music posters.",
       "address": "2 Regency Street, London SW1P 4BZ",
-      "tags": ["city-stack", "quirky"],
+      "tags": [
+        "city-stack",
+        "quirky"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -25,7 +42,11 @@
       "title": "The Faltering Fullback",
       "desc": "Ivy-covered Irish pub behind Finsbury Park with a genuinely magical, plant-filled beer garden.",
       "address": "19 Perth Road, London N4 3HB",
-      "tags": ["city-stack", "outdoor", "hidden-garden"],
+      "tags": [
+        "city-stack",
+        "outdoor",
+        "hidden-garden"
+      ],
       "source": "curated",
       "stretch": true,
       "verify": true

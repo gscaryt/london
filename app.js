@@ -17,8 +17,15 @@ const LINE_NAMES = {
   victoria: 'Victoria',
   'waterloo-city': 'Waterloo & City',
   elizabeth: 'Elizabeth line',
-  overground: 'London Overground'
+  liberty: 'Liberty line',
+  lioness: 'Lioness line',
+  mildmay: 'Mildmay line',
+  suffragette: 'Suffragette line',
+  weaver: 'Weaver line',
+  windrush: 'Windrush line'
 };
+
+const TFL_MAP_URL = 'https://tfl.gov.uk/maps/track/tube';
 
 // Fixed enum (SPEC.md §3). Order here controls grouping order on the
 // station page — spoons and fact are pinned near the top per spec.
@@ -156,6 +163,23 @@ function entriesForStation(stationId) {
   });
 
   return [...merged.values()];
+}
+
+// Lines with forks define `route`: an ordered array of segments, each either
+// `{ stations: [...] }` (fixed trunk) or `{ branches: [{id, name, stations}, ...] }`
+// (a fork — rider picks one via a pill toggle). Lines without forks just use
+// the plain `stationOrder` array. `selections` maps route-segment-index -> chosen
+// branch index (defaults to 0, i.e. the first-listed branch).
+function effectiveStationOrder(line, selections) {
+  if (!Array.isArray(line.route)) return line.stationOrder || [];
+  const ids = [];
+  line.route.forEach((seg, i) => {
+    if (Array.isArray(seg.stations)) { ids.push(...seg.stations); return; }
+    const branches = seg.branches || [];
+    const branch = branches[selections[i] || 0] || branches[0];
+    if (branch) ids.push(...branch.stations);
+  });
+  return ids;
 }
 
 function entryCountForLine(lineId, stationId) {
@@ -347,6 +371,12 @@ function renderHome(root) {
     const boroughLink = el('button', 'secondary-link', 'Browse by borough →');
     boroughLink.addEventListener('click', () => navigate('#/borough'));
     browseContainer.appendChild(boroughLink);
+
+    const mapLink = el('a', 'secondary-link', 'View official TfL tube map ↗');
+    mapLink.href = TFL_MAP_URL;
+    mapLink.target = '_blank';
+    mapLink.rel = 'noopener';
+    browseContainer.appendChild(mapLink);
   }
 
   function renderResults(query) {
@@ -401,6 +431,7 @@ function renderHome(root) {
    =========================================================== */
 
 async function renderLineView(root, lineId) {
+  root.style.setProperty('--line-color', `var(--line-${lineId}, var(--text-muted))`);
   topbar(root, lineDisplayName(lineId), '#/');
 
   const placeholder = el('p', 'empty-state', 'Loading…');
@@ -416,35 +447,68 @@ async function renderLineView(root, lineId) {
       'No curated content file for this line yet — showing stations only.'));
   }
 
-  const orderedIds = line && Array.isArray(line.stationOrder)
-    ? line.stationOrder.filter((id) => STATIONS_BY_ID.has(id))
-    : stationsOnLine.map((s) => s.id);
+  const pillsEl = el('div', 'branch-pills-wrap');
+  root.appendChild(pillsEl);
 
   const strip = el('div', 'line-strip');
-  strip.style.setProperty('--line-color', `var(--line-${lineId}, var(--text-muted))`);
-
-  orderedIds.forEach((stationId) => {
-    const station = STATIONS_BY_ID.get(stationId);
-    if (!station) return;
-    const count = line ? entryCountForLine(lineId, stationId) : 0;
-    const otherLines = station.lines.filter((l) => l !== lineId);
-
-    const row = el('div', 'line-strip__station');
-    row.innerHTML = `
-      <div class="line-strip__rail"><span class="line-strip__tick"></span></div>
-      <button class="line-strip__btn">
-        <span>
-          <span class="line-strip__name">${escapeHtml(station.name)}</span>
-          ${otherLines.length ? `<div class="line-strip__interchange">+ ${otherLines.map(lineDisplayName).map(escapeHtml).join(', ')}</div>` : ''}
-        </span>
-        <span class="count-badge" data-nonzero="${count > 0}">${count}</span>
-      </button>
-    `;
-    row.querySelector('.line-strip__btn').addEventListener('click', () => navigate(`#/station/${stationId}`));
-    strip.appendChild(row);
-  });
-
   root.appendChild(strip);
+
+  const selections = {};
+
+  function renderPills() {
+    pillsEl.innerHTML = '';
+    if (!line || !Array.isArray(line.route)) return;
+    line.route.forEach((seg, segIndex) => {
+      const branches = seg.branches;
+      if (!branches || branches.length < 2) return;
+      const section = el('div', 'branch-section');
+      const row = el('div', 'branch-pill-row');
+      branches.forEach((branch, branchIndex) => {
+        const chosen = (selections[segIndex] || 0) === branchIndex;
+        const pill = el('button', 'branch-pill', escapeHtml(branch.name));
+        pill.setAttribute('aria-pressed', String(chosen));
+        pill.addEventListener('click', () => {
+          selections[segIndex] = branchIndex;
+          renderPills();
+          renderStrip();
+        });
+        row.appendChild(pill);
+      });
+      section.appendChild(row);
+      pillsEl.appendChild(section);
+    });
+  }
+
+  function renderStrip() {
+    strip.innerHTML = '';
+    const orderedIds = line
+      ? effectiveStationOrder(line, selections).filter((id) => STATIONS_BY_ID.has(id))
+      : stationsOnLine.map((s) => s.id);
+
+    orderedIds.forEach((stationId) => {
+      const station = STATIONS_BY_ID.get(stationId);
+      if (!station) return;
+      const count = line ? entryCountForLine(lineId, stationId) : 0;
+      const otherLines = station.lines.filter((l) => l !== lineId);
+
+      const row = el('div', 'line-strip__station');
+      row.innerHTML = `
+        <div class="line-strip__rail"><span class="line-strip__tick"></span></div>
+        <button class="line-strip__btn">
+          <span>
+            <span class="line-strip__name">${escapeHtml(station.name)}</span>
+            ${otherLines.length ? `<div class="line-strip__interchange">+ ${otherLines.map(lineDisplayName).map(escapeHtml).join(', ')}</div>` : ''}
+          </span>
+          <span class="count-badge" data-nonzero="${count > 0}">${count}</span>
+        </button>
+      `;
+      row.querySelector('.line-strip__btn').addEventListener('click', () => navigate(`#/station/${stationId}`));
+      strip.appendChild(row);
+    });
+  }
+
+  renderPills();
+  renderStrip();
 }
 
 /* ===========================================================

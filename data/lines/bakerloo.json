@@ -57,19 +57,9 @@
       "stationId": "harrow-wealdstone",
       "category": "park",
       "title": "Byron Recreation Ground",
-      "desc": "Edwardian park named for Lord Byron, who was schooled at Harrow. Formal beds near the entrance, a line of Lombardy poplars, and the borough's leisure centre and skate park alongside.",
+      "desc": "Edwardian park named for Lord Byron, who was schooled at Harrow. Formal beds near the entrance, a line of Lombardy poplars, and the borough's leisure centre and skate park alongside. Tucked behind it, via the Stuart Road entrance, is a small, quiet 1902 cemetery with serpentine paths and scattered war graves — a hidden pocket of calm within the park.",
       "address": "Byron Recreation Ground, Christchurch Ave, HA3 5BD",
-      "tags": ["free", "outdoor", "picnic"],
-      "source": "curated"
-    },
-    {
-      "id": "hw-006",
-      "stationId": "harrow-wealdstone",
-      "category": "park",
-      "title": "Wealdstone Cemetery",
-      "desc": "Small, quiet 1902 burial ground tucked behind Byron park (entered through it), with serpentine paths, scattered war graves and gravestones set in grass — a proper hidden pocket of calm.",
-      "address": "via Byron Recreation Ground, Stuart Road entrance",
-      "tags": ["free", "hidden", "quiet", "cemetery"],
+      "tags": ["free", "outdoor", "picnic", "hidden", "quiet", "cemetery"],
       "source": "curated"
     },
     {
@@ -89,8 +79,8 @@
       "stationId": "harrow-wealdstone",
       "category": "fact",
       "title": "The vanished 7th platform",
-      "desc": "The station had a 7th platform on the east side, serving the branch line to Belmont — withdrawn in October 1964 under the Beeching cuts. It lingered a while longer as a siding before being removed entirely.",
-      "tags": ["free"],
+      "desc": "The station had a 7th platform on the east side, serving the branch line to Belmont — decommissioned in October 1964 under the Beeching cuts. It's no longer in use, but you can still see it: the old platform edge is visible between the entrance and platform 6 as you walk in.",
+      "tags": [],
       "source": "curated"
     },
     {
@@ -120,7 +110,7 @@
       "title": "The Prince Alfred",
       "desc": "Spectacular 1860s Victorian pub, famous for its original carved 'snob screens' dividing the bar into five snugs you crawl between through waist-high doors.",
       "address": "5a Formosa Street, W9 1EE",
-      "tags": ["quirky", "victorian"],
+      "tags": ["city-stack", "quirky", "victorian"],
       "source": "curated",
       "verify": true
     },
@@ -141,7 +131,7 @@
       "title": "Turing was born up the road",
       "desc": "Alan Turing was born at 2 Warrington Crescent, now the Colonnade Hotel — blue plaque on the front.",
       "address": "2 Warrington Crescent, W9 1ER",
-      "tags": ["free"],
+      "tags": [],
       "source": "curated"
     },
     {
@@ -161,7 +151,7 @@
       "category": "fact",
       "title": "The 'Ladies' Tube station'",
       "desc": "When Maida Vale opened on 6 June 1915, it was the first Underground station staffed entirely by women — so extraordinary at the time it made The Times.",
-      "tags": ["free"],
+      "tags": [],
       "source": "curated"
     },
     {
@@ -190,7 +180,7 @@
       "category": "fact",
       "title": "Where the Underground began",
       "desc": "Baker Street opened in 1863 on the Metropolitan Railway, the world's first underground line — it still runs beneath the Spoons. H.G. Wells lived in Chiltern Court above the station and wrote The Shape of Things to Come there.",
-      "tags": ["free"],
+      "tags": [],
       "source": "curated"
     },
     {
@@ -220,7 +210,7 @@
       "title": "Waxy O'Connor's",
       "desc": "Sprawling, cavernous Irish pub just off the Circus, built over several levels around a tree growing through the building — live music every night.",
       "address": "14-16 Rupert Street, London W1D 6DD",
-      "tags": ["live-music"],
+      "tags": ["city-stack", "live-music"],
       "source": "curated",
       "verify": true
     }

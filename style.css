@@ -31,7 +31,12 @@ input, select, textarea { font: inherit; }
   --line-victoria: #0098D4;
   --line-waterloo-city: #95CDBA;
   --line-elizabeth: #6950A1;
-  --line-overground: #EE7C0E;
+  --line-liberty: #5D6061;
+  --line-lioness: #FAA61A;
+  --line-mildmay: #0077AD;
+  --line-suffragette: #5BBD72;
+  --line-weaver: #823A62;
+  --line-windrush: #ED1B00;
 
   /* Category chip palette — fixed, distinct from line colours */
   --cat-spoons: #16a34a;
@@ -234,6 +239,36 @@ textarea:focus-visible {
 }
 
 /* ===== Line view (tube strip) ===== */
+.branch-pills-wrap {
+  padding: 4px 16px 0;
+}
+.branch-section {
+  margin-bottom: 8px;
+}
+.branch-pill-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.branch-pill-row::-webkit-scrollbar { display: none; }
+.branch-pill {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.branch-pill[aria-pressed="true"] {
+  background: var(--line-color, var(--focus-ring));
+  border-color: var(--line-color, var(--focus-ring));
+  color: #fff;
+}
 .line-strip {
   padding: 12px 16px 32px;
 }

@@ -2,10 +2,100 @@
   "line": "district",
   "name": "District",
   "color": "#00782A",
-  "stationOrder": [
-    "paddington", "embankment", "temple", "tower-hill",
-    "bow-road", "bromley-by-bow", "stepney-green", "victoria",
-    "ravenscourt-park", "east-putney", "wimbledon-park"
+  "route": [
+    {
+      "stations": [
+        "upminster",
+        "upminster-bridge",
+        "hornchurch",
+        "elm-park",
+        "dagenham-east",
+        "dagenham-heathway",
+        "becontree",
+        "upney",
+        "barking",
+        "east-ham",
+        "upton-park",
+        "plaistow",
+        "west-ham",
+        "bromley-by-bow",
+        "bow-road",
+        "mile-end",
+        "stepney-green",
+        "whitechapel",
+        "aldgate-east",
+        "tower-hill",
+        "monument",
+        "cannon-street",
+        "mansion-house",
+        "blackfriars",
+        "temple",
+        "embankment",
+        "westminster",
+        "st-jamess-park",
+        "victoria",
+        "sloane-square",
+        "south-kensington",
+        "gloucester-road",
+        "earls-court"
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "wimbledon",
+          "name": "Wimbledon branch",
+          "stations": [
+            "west-brompton",
+            "fulham-broadway",
+            "parsons-green",
+            "putney-bridge",
+            "east-putney",
+            "southfields",
+            "wimbledon-park",
+            "wimbledon"
+          ]
+        },
+        {
+          "id": "ealing-broadway",
+          "name": "Ealing Broadway branch",
+          "stations": [
+            "west-kensington",
+            "barons-court",
+            "hammersmith",
+            "ravenscourt-park",
+            "stamford-brook",
+            "turnham-green",
+            "chiswick-park",
+            "acton-town",
+            "ealing-common",
+            "ealing-broadway"
+          ]
+        },
+        {
+          "id": "richmond",
+          "name": "Richmond branch",
+          "stations": [
+            "west-kensington",
+            "barons-court",
+            "hammersmith",
+            "ravenscourt-park",
+            "stamford-brook",
+            "turnham-green",
+            "gunnersbury",
+            "kew-gardens",
+            "richmond"
+          ]
+        },
+        {
+          "id": "kensington-olympia",
+          "name": "Kensington (Olympia)",
+          "stations": [
+            "kensington-olympia"
+          ]
+        }
+      ]
+    }
   ],
   "entries": [
     {
@@ -15,7 +105,10 @@
       "title": "The Bow Bells",
       "desc": "Bright orange 1860 pub right on Bow Road, said by locals to be haunted.",
       "address": "116 Bow Road, London E3 3AA",
-      "tags": ["city-stack", "dark"],
+      "tags": [
+        "city-stack",
+        "dark"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -26,7 +119,10 @@
       "title": "The Peacock",
       "desc": "1881 backstreet pub off Stepney Green, well away from the main roads.",
       "address": "145 Aylward Street, London E1 0QW",
-      "tags": ["city-stack", "hidden"],
+      "tags": [
+        "city-stack",
+        "hidden"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -37,7 +133,9 @@
       "title": "The Devereux",
       "desc": "Built in 1677 as the Grecian Coffee House and once frequented by Isaac Newton, a couple of minutes from Temple station.",
       "address": "20 Devereux Court, London WC2R 3JJ",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -48,7 +146,9 @@
       "title": "The Fenchurch",
       "desc": "Former Lloyds Bank branch converted into a pub with a six-figure fit-out, a short walk from Tower Hill.",
       "address": "72 Fenchurch Street, London EC3M 4BR",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "stretch": true,
       "verify": true
@@ -60,7 +160,9 @@
       "title": "The Bricklayers Arms",
       "desc": "Putney's oldest surviving pub, built in 1826, tucked just off the river.",
       "address": "32 Waterman Street, London SW15 1DD",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -71,7 +173,9 @@
       "title": "The Garden Shed",
       "desc": "Wimbledon's oldest pub (1838), plant-themed inside and out.",
       "address": "145 Haydons Road, London SW19 1AN",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "stretch": true,
       "verify": true

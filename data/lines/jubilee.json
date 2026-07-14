@@ -3,7 +3,33 @@
   "name": "Jubilee",
   "color": "#A0A5A9",
   "stationOrder": [
-    "baker-street", "waterloo", "southwark", "london-bridge", "bermondsey"
+    "stanmore",
+    "canons-park",
+    "queensbury",
+    "kingsbury",
+    "wembley-park",
+    "neasden",
+    "dollis-hill",
+    "willesden-green",
+    "kilburn",
+    "west-hampstead",
+    "finchley-road",
+    "swiss-cottage",
+    "st-johns-wood",
+    "baker-street",
+    "bond-street",
+    "green-park",
+    "westminster",
+    "waterloo",
+    "southwark",
+    "london-bridge",
+    "bermondsey",
+    "canada-water",
+    "canary-wharf",
+    "north-greenwich",
+    "canning-town",
+    "west-ham",
+    "stratford"
   ],
   "entries": [
     {
@@ -13,7 +39,9 @@
       "title": "The Kings Arms",
       "desc": "1825 pub near London Bridge with eclectic décor and a candlelit back room.",
       "address": "251 Tooley Street, London SE1 2JX",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     }

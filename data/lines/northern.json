@@ -2,11 +2,117 @@
   "line": "northern",
   "name": "Northern",
   "color": "#000000",
-  "stationOrder": [
-    "east-finchley", "tufnell-park", "kentish-town", "chalk-farm", "camden-town",
-    "euston", "warren-street", "goodge-street", "charing-cross", "embankment", "waterloo",
-    "angel", "old-street", "bank", "london-bridge", "borough", "elephant-castle",
-    "kennington"
+  "route": [
+    {
+      "branches": [
+        {
+          "id": "edgware",
+          "name": "Edgware branch",
+          "stations": [
+            "edgware",
+            "burnt-oak",
+            "colindale",
+            "hendon-central",
+            "brent-cross",
+            "golders-green",
+            "hampstead",
+            "belsize-park",
+            "chalk-farm",
+            "camden-town"
+          ]
+        },
+        {
+          "id": "high-barnet",
+          "name": "High Barnet branch",
+          "stations": [
+            "high-barnet",
+            "totteridge-whetstone",
+            "woodside-park",
+            "west-finchley",
+            "finchley-central",
+            "east-finchley",
+            "highgate",
+            "archway",
+            "tufnell-park",
+            "kentish-town",
+            "camden-town"
+          ]
+        },
+        {
+          "id": "mill-hill-east",
+          "name": "Mill Hill East shuttle",
+          "stations": [
+            "finchley-central",
+            "mill-hill-east"
+          ]
+        }
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "charing-cross",
+          "name": "via Charing Cross",
+          "stations": [
+            "mornington-crescent",
+            "euston",
+            "warren-street",
+            "goodge-street",
+            "tottenham-court-road",
+            "leicester-square",
+            "charing-cross",
+            "embankment",
+            "waterloo",
+            "kennington"
+          ]
+        },
+        {
+          "id": "bank",
+          "name": "via Bank",
+          "stations": [
+            "euston",
+            "kings-cross-st-pancras",
+            "angel",
+            "old-street",
+            "moorgate",
+            "bank",
+            "london-bridge",
+            "borough",
+            "elephant-castle",
+            "kennington"
+          ]
+        }
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "morden",
+          "name": "Morden branch",
+          "stations": [
+            "oval",
+            "stockwell",
+            "clapham-north",
+            "clapham-common",
+            "clapham-south",
+            "balham",
+            "tooting-bec",
+            "tooting-broadway",
+            "colliers-wood",
+            "south-wimbledon",
+            "morden"
+          ]
+        },
+        {
+          "id": "battersea",
+          "name": "Battersea branch",
+          "stations": [
+            "nine-elms",
+            "battersea-power-station"
+          ]
+        }
+      ]
+    }
   ],
   "entries": [
     {
@@ -16,7 +122,9 @@
       "title": "The Queen Charlotte",
       "desc": "City Stack pub right on Goodge Street — returned to independent hands in 2025, with hand-painted artisan signage above the bar.",
       "address": "43 Goodge Street, London W1T 1TA",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -27,7 +135,10 @@
       "title": "The Good Mixer",
       "desc": "Punk-scene stalwart just off Camden High Street, long associated with the Britpop pub crawl — regular live music.",
       "address": "30 Inverness Street, London NW1 7HJ",
-      "tags": ["city-stack", "live-music"],
+      "tags": [
+        "city-stack",
+        "live-music"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -38,7 +149,9 @@
       "title": "The Colonel Fawcett",
       "desc": "Backstreet pub off Camden Road with over 100 gins on the shelf and an award-winning Sunday roast.",
       "address": "1 Randolph Street, London NW1 0SS",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "stretch": true,
       "verify": true
@@ -50,7 +163,10 @@
       "title": "The Rose & Crown",
       "desc": "Local pub off the high street with a sunken beer garden and a rotating line-up of London craft beers.",
       "address": "71-73 Torriano Avenue, London NW5 2SG",
-      "tags": ["city-stack", "outdoor"],
+      "tags": [
+        "city-stack",
+        "outdoor"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -61,7 +177,9 @@
       "title": "The Princess of Wales",
       "desc": "Primrose Hill gastropub brewing its own lager, trading under some name at this spot for around 150 years.",
       "address": "22 Chalcot Road, London NW1 8LL",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "stretch": true,
       "verify": true
@@ -73,7 +191,9 @@
       "title": "The Smugglers Tavern",
       "desc": "Georgian pub right by the station, fitted out with a full nautical/smugglers theme.",
       "address": "28 Warren Street, London W1T 5ND",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -84,7 +204,10 @@
       "title": "The Windsor Castle",
       "desc": "Local East Finchley pub with a fully homemade menu and a deliberately minimal-waste kitchen.",
       "address": "The Walks, London N2 8DL",
-      "tags": ["city-stack", "food"],
+      "tags": [
+        "city-stack",
+        "food"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -95,7 +218,9 @@
       "title": "The Prince Arthur",
       "desc": "18th-century pub built for local seamstresses, now run by a former professional boxer.",
       "address": "49 Brunswick Place, London N1 6EB",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -106,7 +231,11 @@
       "title": "The Masons Arms",
       "desc": "Tucked down an alley in the Square Mile, serving hearty pub grub with mains under a tenner.",
       "address": "12-14 Masons Avenue, London EC2V 5BT",
-      "tags": ["city-stack", "hidden", "food"],
+      "tags": [
+        "city-stack",
+        "hidden",
+        "food"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -117,7 +246,9 @@
       "title": "The Blue Maid",
       "desc": "One of London's oldest pubs, right on Borough High Street — reputedly turns up in Dickens.",
       "address": "173 Borough High Street, London SE1 1HR",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -128,7 +259,10 @@
       "title": "Euston Tap",
       "desc": "Craft beer bar inside one of the Grade II-listed lodges flanking the old station entrance — a big rotating selection at prices that undercut most of central London, with outdoor tables right by the forecourt.",
       "address": "190 Euston Road, London NW1 2EF",
-      "tags": ["outdoor"],
+      "tags": [
+        "city-stack",
+        "outdoor"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -139,7 +273,10 @@
       "title": "The Pilgrim",
       "desc": "Former glass factory converted into a pub, with two separate, individually decorated beer gardens.",
       "address": "247 Kennington Lane, London SE11 5QU",
-      "tags": ["city-stack", "outdoor"],
+      "tags": [
+        "city-stack",
+        "outdoor"
+      ],
       "source": "curated",
       "verify": true
     }

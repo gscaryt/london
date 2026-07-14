@@ -2,8 +2,105 @@
   "line": "elizabeth",
   "name": "Elizabeth line",
   "color": "#6950A1",
-  "stationOrder": [
-    "hanwell", "west-ealing", "paddington", "farringdon"
+  "route": [
+    {
+      "branches": [
+        {
+          "id": "reading",
+          "name": "Reading branch",
+          "stations": [
+            "reading",
+            "twyford",
+            "maidenhead",
+            "taplow",
+            "burnham",
+            "slough",
+            "langley",
+            "iver",
+            "west-drayton",
+            "hayes-harlington",
+            "southall",
+            "hanwell",
+            "west-ealing",
+            "ealing-broadway",
+            "acton-main-line",
+            "paddington"
+          ]
+        },
+        {
+          "id": "heathrow-t5",
+          "name": "Heathrow T5",
+          "stations": [
+            "heathrow-terminal-5",
+            "heathrow-terminals-2-3",
+            "hayes-harlington",
+            "southall",
+            "hanwell",
+            "west-ealing",
+            "ealing-broadway",
+            "acton-main-line",
+            "paddington"
+          ]
+        },
+        {
+          "id": "heathrow-t4",
+          "name": "Heathrow T4",
+          "stations": [
+            "heathrow-terminal-4",
+            "heathrow-terminals-2-3",
+            "hayes-harlington",
+            "southall",
+            "hanwell",
+            "west-ealing",
+            "ealing-broadway",
+            "acton-main-line",
+            "paddington"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "bond-street",
+        "tottenham-court-road",
+        "farringdon",
+        "liverpool-street",
+        "whitechapel"
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "abbey-wood",
+          "name": "Abbey Wood branch",
+          "stations": [
+            "canary-wharf",
+            "custom-house",
+            "woolwich",
+            "abbey-wood"
+          ]
+        },
+        {
+          "id": "shenfield",
+          "name": "Shenfield branch",
+          "stations": [
+            "stratford",
+            "maryland",
+            "forest-gate",
+            "manor-park",
+            "ilford",
+            "seven-kings",
+            "goodmayes",
+            "chadwell-heath",
+            "romford",
+            "gidea-park",
+            "harold-wood",
+            "brentwood",
+            "shenfield"
+          ]
+        }
+      ]
+    }
   ],
   "entries": [
     {
@@ -13,7 +110,10 @@
       "title": "The Fox",
       "desc": "1848 canalside pub built as the Royal Brewery House, right along the Grand Union near Hanwell.",
       "address": "Green Lane, London W7 2PJ",
-      "tags": ["city-stack", "canalside"],
+      "tags": [
+        "city-stack",
+        "canalside"
+      ],
       "source": "curated",
       "verify": true
     },
@@ -24,7 +124,9 @@
       "title": "The Old Hat",
       "desc": "Rustic West Ealing local with original wood panelling and leather seats.",
       "address": "128 Broadway, London W13 0SY",
-      "tags": ["city-stack"],
+      "tags": [
+        "city-stack"
+      ],
       "source": "curated",
       "verify": true
     }

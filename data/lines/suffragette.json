@@ -1,0 +1,21 @@
+{
+  "line": "suffragette",
+  "name": "Suffragette line",
+  "color": "#5BBD72",
+  "stationOrder": [
+    "gospel-oak",
+    "upper-holloway",
+    "crouch-hill",
+    "harringay-green-lanes",
+    "south-tottenham",
+    "blackhorse-road",
+    "walthamstow-queens-road",
+    "leyton-midland-road",
+    "leytonstone-high-road",
+    "wanstead-park",
+    "woodgrange-park",
+    "barking",
+    "barking-riverside"
+  ],
+  "entries": []
+}

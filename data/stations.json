@@ -1,83 +1,4753 @@
 {
   "version": 1,
   "stations": [
-    { "id": "harrow-wealdstone", "name": "Harrow & Wealdstone", "lines": ["bakerloo", "overground"], "borough": "Harrow", "zone": "5", "lat": 51.5923, "lon": -0.3351, "verified": true },
-    { "id": "kenton", "name": "Kenton", "lines": ["bakerloo", "overground"], "borough": "Harrow", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "south-kenton", "name": "South Kenton", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "north-wembley", "name": "North Wembley", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "wembley-central", "name": "Wembley Central", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "stonebridge-park", "name": "Stonebridge Park", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "harlesden", "name": "Harlesden", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "willesden-junction", "name": "Willesden Junction", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2/3", "lat": null, "lon": null, "verified": false },
-    { "id": "kensal-green", "name": "Kensal Green", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "queens-park", "name": "Queen's Park", "lines": ["bakerloo", "overground"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "kilburn-park", "name": "Kilburn Park", "lines": ["bakerloo"], "borough": "Brent", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "maida-vale", "name": "Maida Vale", "lines": ["bakerloo"], "borough": "Westminster", "zone": "2", "lat": 51.5299, "lon": -0.1857, "verified": true },
-    { "id": "warwick-avenue", "name": "Warwick Avenue", "lines": ["bakerloo"], "borough": "Westminster", "zone": "2", "lat": 51.5235, "lon": -0.1835, "verified": true },
-    { "id": "paddington", "name": "Paddington", "lines": ["bakerloo", "circle", "district", "hammersmith-city", "elizabeth"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "edgware-road-bakerloo", "name": "Edgware Road (Bakerloo)", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "marylebone", "name": "Marylebone", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "baker-street", "name": "Baker Street", "lines": ["bakerloo", "circle", "hammersmith-city", "jubilee", "metropolitan"], "borough": "Westminster", "zone": "1", "lat": 51.5226, "lon": -0.1571, "verified": true },
-    { "id": "regents-park", "name": "Regent's Park", "lines": ["bakerloo"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "oxford-circus", "name": "Oxford Circus", "lines": ["bakerloo", "central", "victoria"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "piccadilly-circus", "name": "Piccadilly Circus", "lines": ["bakerloo", "piccadilly"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "charing-cross", "name": "Charing Cross", "lines": ["bakerloo", "northern"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "embankment", "name": "Embankment", "lines": ["bakerloo", "circle", "district", "northern"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "waterloo", "name": "Waterloo", "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"], "borough": "Lambeth", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "lambeth-north", "name": "Lambeth North", "lines": ["bakerloo"], "borough": "Lambeth", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "elephant-castle", "name": "Elephant & Castle", "lines": ["bakerloo", "northern"], "borough": "Southwark", "zone": "1/2", "lat": null, "lon": null, "verified": false },
-    { "id": "tufnell-park", "name": "Tufnell Park", "lines": ["northern"], "borough": "Camden", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "kentish-town", "name": "Kentish Town", "lines": ["northern"], "borough": "Camden", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "chalk-farm", "name": "Chalk Farm", "lines": ["northern"], "borough": "Camden", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "camden-town", "name": "Camden Town", "lines": ["northern"], "borough": "Camden", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "goodge-street", "name": "Goodge Street", "lines": ["northern"], "borough": "Camden", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "euston", "name": "Euston", "lines": ["northern", "victoria", "overground"], "borough": "Camden", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "warren-street", "name": "Warren Street", "lines": ["victoria", "northern"], "borough": "Camden", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "east-finchley", "name": "East Finchley", "lines": ["northern"], "borough": "Barnet", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "angel", "name": "Angel", "lines": ["northern"], "borough": "Islington", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "old-street", "name": "Old Street", "lines": ["northern"], "borough": "Islington", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "holloway-road", "name": "Holloway Road", "lines": ["piccadilly"], "borough": "Islington", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "highbury-islington", "name": "Highbury & Islington", "lines": ["victoria", "overground"], "borough": "Islington", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "manor-house", "name": "Manor House", "lines": ["piccadilly"], "borough": "Haringey", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "finsbury-park", "name": "Finsbury Park", "lines": ["victoria", "piccadilly"], "borough": "Islington", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "farringdon", "name": "Farringdon", "lines": ["circle", "metropolitan", "hammersmith-city", "elizabeth"], "borough": "Islington", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "hoxton", "name": "Hoxton", "lines": ["overground"], "borough": "Hackney", "zone": "1/2", "lat": null, "lon": null, "verified": false },
-    { "id": "shoreditch-high-street", "name": "Shoreditch High Street", "lines": ["overground"], "borough": "Hackney", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "dalston-kingsland", "name": "Dalston Kingsland", "lines": ["overground"], "borough": "Hackney", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "stoke-newington", "name": "Stoke Newington", "lines": ["overground"], "borough": "Hackney", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "hackney-central", "name": "Hackney Central", "lines": ["overground"], "borough": "Hackney", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "homerton", "name": "Homerton", "lines": ["overground"], "borough": "Hackney", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "hackney-wick", "name": "Hackney Wick", "lines": ["overground"], "borough": "Hackney", "zone": "2/3", "lat": null, "lon": null, "verified": false },
-    { "id": "bow-road", "name": "Bow Road", "lines": ["district", "hammersmith-city"], "borough": "Tower Hamlets", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "bromley-by-bow", "name": "Bromley-by-Bow", "lines": ["district", "hammersmith-city"], "borough": "Tower Hamlets", "zone": "2/3", "lat": null, "lon": null, "verified": false },
-    { "id": "stepney-green", "name": "Stepney Green", "lines": ["district", "hammersmith-city"], "borough": "Tower Hamlets", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "tower-hill", "name": "Tower Hill", "lines": ["circle", "district"], "borough": "City of London", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "bank", "name": "Bank", "lines": ["central", "northern", "waterloo-city"], "borough": "City of London", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "southwark", "name": "Southwark", "lines": ["jubilee"], "borough": "Southwark", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "borough", "name": "Borough", "lines": ["northern"], "borough": "Southwark", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "london-bridge", "name": "London Bridge", "lines": ["jubilee", "northern"], "borough": "Southwark", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "bermondsey", "name": "Bermondsey", "lines": ["jubilee"], "borough": "Southwark", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "surrey-quays", "name": "Surrey Quays", "lines": ["overground"], "borough": "Southwark", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "peckham-rye", "name": "Peckham Rye", "lines": ["overground"], "borough": "Southwark", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "queens-road-peckham", "name": "Queens Road Peckham", "lines": ["overground"], "borough": "Southwark", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "denmark-hill", "name": "Denmark Hill", "lines": ["overground"], "borough": "Southwark", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "honor-oak-park", "name": "Honor Oak Park", "lines": ["overground"], "borough": "Lewisham", "zone": "2/3", "lat": null, "lon": null, "verified": false },
-    { "id": "new-cross-gate", "name": "New Cross Gate", "lines": ["overground"], "borough": "Lewisham", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "new-cross", "name": "New Cross", "lines": ["overground"], "borough": "Lewisham", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "sydenham", "name": "Sydenham", "lines": ["overground"], "borough": "Lewisham", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "vauxhall", "name": "Vauxhall", "lines": ["victoria"], "borough": "Lambeth", "zone": "1/2", "lat": null, "lon": null, "verified": false },
-    { "id": "pimlico", "name": "Pimlico", "lines": ["victoria"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "kennington", "name": "Kennington", "lines": ["northern"], "borough": "Lambeth", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "victoria", "name": "Victoria", "lines": ["victoria", "circle", "district"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "covent-garden", "name": "Covent Garden", "lines": ["piccadilly"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "temple", "name": "Temple", "lines": ["circle", "district"], "borough": "Westminster", "zone": "1", "lat": null, "lon": null, "verified": false },
-    { "id": "goldhawk-road", "name": "Goldhawk Road", "lines": ["hammersmith-city", "circle"], "borough": "Hammersmith & Fulham", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "ravenscourt-park", "name": "Ravenscourt Park", "lines": ["district"], "borough": "Hammersmith & Fulham", "zone": "2", "lat": null, "lon": null, "verified": false },
-    { "id": "east-putney", "name": "East Putney", "lines": ["district"], "borough": "Wandsworth", "zone": "2/3", "lat": null, "lon": null, "verified": false },
-    { "id": "wimbledon-park", "name": "Wimbledon Park", "lines": ["district"], "borough": "Merton", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "hanwell", "name": "Hanwell", "lines": ["elizabeth"], "borough": "Ealing", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "west-ealing", "name": "West Ealing", "lines": ["elizabeth"], "borough": "Ealing", "zone": "3", "lat": null, "lon": null, "verified": false },
-    { "id": "highams-park", "name": "Highams Park", "lines": ["overground"], "borough": "Waltham Forest", "zone": "4", "lat": null, "lon": null, "verified": false },
-    { "id": "white-hart-lane", "name": "White Hart Lane", "lines": ["overground"], "borough": "Haringey", "zone": "3", "lat": null, "lon": null, "verified": false }
+    {
+      "id": "harrow-wealdstone",
+      "name": "Harrow & Wealdstone",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": 51.5923,
+      "lon": -0.3351,
+      "verified": true
+    },
+    {
+      "id": "kenton",
+      "name": "Kenton",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Harrow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-kenton",
+      "name": "South Kenton",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "north-wembley",
+      "name": "North Wembley",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wembley-central",
+      "name": "Wembley Central",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stonebridge-park",
+      "name": "Stonebridge Park",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "harlesden",
+      "name": "Harlesden",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "willesden-junction",
+      "name": "Willesden Junction",
+      "lines": [
+        "bakerloo",
+        "lioness",
+        "mildmay"
+      ],
+      "borough": "Brent",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kensal-green",
+      "name": "Kensal Green",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "queens-park",
+      "name": "Queen's Park",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kilburn-park",
+      "name": "Kilburn Park",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "maida-vale",
+      "name": "Maida Vale",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Westminster",
+      "zone": "2",
+      "lat": 51.5299,
+      "lon": -0.1857,
+      "verified": true
+    },
+    {
+      "id": "warwick-avenue",
+      "name": "Warwick Avenue",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Westminster",
+      "zone": "2",
+      "lat": 51.5235,
+      "lon": -0.1835,
+      "verified": true
+    },
+    {
+      "id": "paddington",
+      "name": "Paddington",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "hammersmith-city",
+        "elizabeth"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "edgware-road-bakerloo",
+      "name": "Edgware Road (Bakerloo)",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "marylebone",
+      "name": "Marylebone",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "baker-street",
+      "name": "Baker Street",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "hammersmith-city",
+        "jubilee",
+        "metropolitan"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": 51.5226,
+      "lon": -0.1571,
+      "verified": true
+    },
+    {
+      "id": "regents-park",
+      "name": "Regent's Park",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "oxford-circus",
+      "name": "Oxford Circus",
+      "lines": [
+        "bakerloo",
+        "central",
+        "victoria"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "piccadilly-circus",
+      "name": "Piccadilly Circus",
+      "lines": [
+        "bakerloo",
+        "piccadilly"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "charing-cross",
+      "name": "Charing Cross",
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "embankment",
+      "name": "Embankment",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "northern"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "waterloo",
+      "name": "Waterloo",
+      "lines": [
+        "bakerloo",
+        "jubilee",
+        "northern",
+        "waterloo-city"
+      ],
+      "borough": "Lambeth",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "lambeth-north",
+      "name": "Lambeth North",
+      "lines": [
+        "bakerloo"
+      ],
+      "borough": "Lambeth",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "elephant-castle",
+      "name": "Elephant & Castle",
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "borough": "Southwark",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tufnell-park",
+      "name": "Tufnell Park",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kentish-town",
+      "name": "Kentish Town",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chalk-farm",
+      "name": "Chalk Farm",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "camden-town",
+      "name": "Camden Town",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "goodge-street",
+      "name": "Goodge Street",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "euston",
+      "name": "Euston",
+      "lines": [
+        "northern",
+        "victoria",
+        "lioness"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "warren-street",
+      "name": "Warren Street",
+      "lines": [
+        "victoria",
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "east-finchley",
+      "name": "East Finchley",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "angel",
+      "name": "Angel",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Islington",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "old-street",
+      "name": "Old Street",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Islington",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "holloway-road",
+      "name": "Holloway Road",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "highbury-islington",
+      "name": "Highbury & Islington",
+      "lines": [
+        "victoria",
+        "mildmay",
+        "windrush"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "manor-house",
+      "name": "Manor House",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Haringey",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "finsbury-park",
+      "name": "Finsbury Park",
+      "lines": [
+        "victoria",
+        "piccadilly"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "farringdon",
+      "name": "Farringdon",
+      "lines": [
+        "circle",
+        "metropolitan",
+        "hammersmith-city",
+        "elizabeth"
+      ],
+      "borough": "Islington",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hoxton",
+      "name": "Hoxton",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Hackney",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shoreditch-high-street",
+      "name": "Shoreditch High Street",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Hackney",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "dalston-kingsland",
+      "name": "Dalston Kingsland",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stoke-newington",
+      "name": "Stoke Newington",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hackney-central",
+      "name": "Hackney Central",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "homerton",
+      "name": "Homerton",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hackney-wick",
+      "name": "Hackney Wick",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hackney",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bow-road",
+      "name": "Bow Road",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bromley-by-bow",
+      "name": "Bromley-by-Bow",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stepney-green",
+      "name": "Stepney Green",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tower-hill",
+      "name": "Tower Hill",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bank",
+      "name": "Bank",
+      "lines": [
+        "central",
+        "northern",
+        "waterloo-city"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "southwark",
+      "name": "Southwark",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Southwark",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "borough",
+      "name": "Borough",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Southwark",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "london-bridge",
+      "name": "London Bridge",
+      "lines": [
+        "jubilee",
+        "northern"
+      ],
+      "borough": "Southwark",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bermondsey",
+      "name": "Bermondsey",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "surrey-quays",
+      "name": "Surrey Quays",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "peckham-rye",
+      "name": "Peckham Rye",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "queens-road-peckham",
+      "name": "Queens Road Peckham",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "denmark-hill",
+      "name": "Denmark Hill",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "honor-oak-park",
+      "name": "Honor Oak Park",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "new-cross-gate",
+      "name": "New Cross Gate",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "new-cross",
+      "name": "New Cross",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "sydenham",
+      "name": "Sydenham",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "vauxhall",
+      "name": "Vauxhall",
+      "lines": [
+        "victoria"
+      ],
+      "borough": "Lambeth",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "pimlico",
+      "name": "Pimlico",
+      "lines": [
+        "victoria"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kennington",
+      "name": "Kennington",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "lines": [
+        "victoria",
+        "circle",
+        "district"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "covent-garden",
+      "name": "Covent Garden",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "temple",
+      "name": "Temple",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "goldhawk-road",
+      "name": "Goldhawk Road",
+      "lines": [
+        "hammersmith-city",
+        "circle"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ravenscourt-park",
+      "name": "Ravenscourt Park",
+      "lines": [
+        "district"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "east-putney",
+      "name": "East Putney",
+      "lines": [
+        "district"
+      ],
+      "borough": "Wandsworth",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wimbledon-park",
+      "name": "Wimbledon Park",
+      "lines": [
+        "district"
+      ],
+      "borough": "Merton",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hanwell",
+      "name": "Hanwell",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Ealing",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-ealing",
+      "name": "West Ealing",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "highams-park",
+      "name": "Highams Park",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "white-hart-lane",
+      "name": "White Hart Lane",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-ruislip",
+      "name": "West Ruislip",
+      "lines": [
+        "central"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ruislip-gardens",
+      "name": "Ruislip Gardens",
+      "lines": [
+        "central"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-ruislip",
+      "name": "South Ruislip",
+      "lines": [
+        "central"
+      ],
+      "borough": "Hillingdon",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "northolt",
+      "name": "Northolt",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "greenford",
+      "name": "Greenford",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "perivale",
+      "name": "Perivale",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hanger-lane",
+      "name": "Hanger Lane",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "north-acton",
+      "name": "North Acton",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ealing-broadway",
+      "name": "Ealing Broadway",
+      "lines": [
+        "central",
+        "district",
+        "elizabeth"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-acton",
+      "name": "West Acton",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "east-acton",
+      "name": "East Acton",
+      "lines": [
+        "central"
+      ],
+      "borough": "Ealing",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "white-city",
+      "name": "White City",
+      "lines": [
+        "central"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shepherds-bush",
+      "name": "Shepherd's Bush",
+      "lines": [
+        "central"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "holland-park",
+      "name": "Holland Park",
+      "lines": [
+        "central"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "notting-hill-gate",
+      "name": "Notting Hill Gate",
+      "lines": [
+        "circle",
+        "central"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "queensway",
+      "name": "Queensway",
+      "lines": [
+        "central"
+      ],
+      "borough": "Westminster",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "lancaster-gate",
+      "name": "Lancaster Gate",
+      "lines": [
+        "central"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "marble-arch",
+      "name": "Marble Arch",
+      "lines": [
+        "central"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bond-street",
+      "name": "Bond Street",
+      "lines": [
+        "jubilee",
+        "central",
+        "elizabeth"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tottenham-court-road",
+      "name": "Tottenham Court Road",
+      "lines": [
+        "central",
+        "elizabeth",
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "holborn",
+      "name": "Holborn",
+      "lines": [
+        "central",
+        "piccadilly"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chancery-lane",
+      "name": "Chancery Lane",
+      "lines": [
+        "central"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "st-pauls",
+      "name": "St Paul's",
+      "lines": [
+        "central"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "liverpool-street",
+      "name": "Liverpool Street",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "central",
+        "metropolitan",
+        "elizabeth",
+        "weaver"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bethnal-green",
+      "name": "Bethnal Green",
+      "lines": [
+        "central",
+        "weaver"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "mile-end",
+      "name": "Mile End",
+      "lines": [
+        "central",
+        "district"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stratford",
+      "name": "Stratford",
+      "lines": [
+        "jubilee",
+        "central",
+        "elizabeth",
+        "mildmay"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "leyton",
+      "name": "Leyton",
+      "lines": [
+        "central"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "leytonstone",
+      "name": "Leytonstone",
+      "lines": [
+        "central"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "snaresbrook",
+      "name": "Snaresbrook",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-woodford",
+      "name": "South Woodford",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "woodford",
+      "name": "Woodford",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "buckhurst-hill",
+      "name": "Buckhurst Hill",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "loughton",
+      "name": "Loughton",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "debden",
+      "name": "Debden",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "theydon-bois",
+      "name": "Theydon Bois",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "epping",
+      "name": "Epping",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wanstead",
+      "name": "Wanstead",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "redbridge",
+      "name": "Redbridge",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "gants-hill",
+      "name": "Gants Hill",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "newbury-park",
+      "name": "Newbury Park",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "barkingside",
+      "name": "Barkingside",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "fairlop",
+      "name": "Fairlop",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hainault",
+      "name": "Hainault",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "grange-hill",
+      "name": "Grange Hill",
+      "lines": [
+        "central"
+      ],
+      "borough": "Redbridge",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chigwell",
+      "name": "Chigwell",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "roding-valley",
+      "name": "Roding Valley",
+      "lines": [
+        "central"
+      ],
+      "borough": "Epping Forest",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "upminster",
+      "name": "Upminster",
+      "lines": [
+        "liberty",
+        "district"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "upminster-bridge",
+      "name": "Upminster Bridge",
+      "lines": [
+        "district"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hornchurch",
+      "name": "Hornchurch",
+      "lines": [
+        "district"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "elm-park",
+      "name": "Elm Park",
+      "lines": [
+        "district"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "dagenham-east",
+      "name": "Dagenham East",
+      "lines": [
+        "district"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "dagenham-heathway",
+      "name": "Dagenham Heathway",
+      "lines": [
+        "district"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "becontree",
+      "name": "Becontree",
+      "lines": [
+        "district"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "upney",
+      "name": "Upney",
+      "lines": [
+        "district"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "barking",
+      "name": "Barking",
+      "lines": [
+        "hammersmith-city",
+        "suffragette",
+        "district"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "east-ham",
+      "name": "East Ham",
+      "lines": [
+        "hammersmith-city",
+        "district"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "upton-park",
+      "name": "Upton Park",
+      "lines": [
+        "hammersmith-city",
+        "district"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "plaistow",
+      "name": "Plaistow",
+      "lines": [
+        "hammersmith-city",
+        "district"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-ham",
+      "name": "West Ham",
+      "lines": [
+        "hammersmith-city",
+        "jubilee",
+        "district"
+      ],
+      "borough": "Newham",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "whitechapel",
+      "name": "Whitechapel",
+      "lines": [
+        "hammersmith-city",
+        "district",
+        "elizabeth",
+        "windrush"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "aldgate-east",
+      "name": "Aldgate East",
+      "lines": [
+        "hammersmith-city",
+        "district"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "monument",
+      "name": "Monument",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "cannon-street",
+      "name": "Cannon Street",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "mansion-house",
+      "name": "Mansion House",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "blackfriars",
+      "name": "Blackfriars",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "westminster",
+      "name": "Westminster",
+      "lines": [
+        "circle",
+        "jubilee",
+        "district"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "st-jamess-park",
+      "name": "St James's Park",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "sloane-square",
+      "name": "Sloane Square",
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-kensington",
+      "name": "South Kensington",
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "gloucester-road",
+      "name": "Gloucester Road",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "earls-court",
+      "name": "Earl's Court",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-brompton",
+      "name": "West Brompton",
+      "lines": [
+        "district",
+        "mildmay"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "fulham-broadway",
+      "name": "Fulham Broadway",
+      "lines": [
+        "district"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "parsons-green",
+      "name": "Parsons Green",
+      "lines": [
+        "district"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "putney-bridge",
+      "name": "Putney Bridge",
+      "lines": [
+        "district"
+      ],
+      "borough": "Wandsworth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "southfields",
+      "name": "Southfields",
+      "lines": [
+        "district"
+      ],
+      "borough": "Wandsworth",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wimbledon",
+      "name": "Wimbledon",
+      "lines": [
+        "district"
+      ],
+      "borough": "Merton",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kensington-olympia",
+      "name": "Kensington (Olympia)",
+      "lines": [
+        "district",
+        "mildmay"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-kensington",
+      "name": "West Kensington",
+      "lines": [
+        "district"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "barons-court",
+      "name": "Barons Court",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hammersmith",
+      "name": "Hammersmith",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stamford-brook",
+      "name": "Stamford Brook",
+      "lines": [
+        "district"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "turnham-green",
+      "name": "Turnham Green",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chiswick-park",
+      "name": "Chiswick Park",
+      "lines": [
+        "district"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "acton-town",
+      "name": "Acton Town",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ealing-common",
+      "name": "Ealing Common",
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "gunnersbury",
+      "name": "Gunnersbury",
+      "lines": [
+        "district",
+        "mildmay"
+      ],
+      "borough": "Hounslow",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kew-gardens",
+      "name": "Kew Gardens",
+      "lines": [
+        "district",
+        "mildmay"
+      ],
+      "borough": "Richmond upon Thames",
+      "zone": "3/4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond",
+      "lines": [
+        "district",
+        "mildmay"
+      ],
+      "borough": "Richmond upon Thames",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shepherds-bush-market",
+      "name": "Shepherd's Bush Market",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wood-lane",
+      "name": "Wood Lane",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "latimer-road",
+      "name": "Latimer Road",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ladbroke-grove",
+      "name": "Ladbroke Grove",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "westbourne-park",
+      "name": "Westbourne Park",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "royal-oak",
+      "name": "Royal Oak",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Westminster",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "edgware-road-circle",
+      "name": "Edgware Road",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "great-portland-street",
+      "name": "Great Portland Street",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "euston-square",
+      "name": "Euston Square",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kings-cross-st-pancras",
+      "name": "King's Cross St Pancras",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "victoria",
+        "metropolitan",
+        "piccadilly",
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "barbican",
+      "name": "Barbican",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "moorgate",
+      "name": "Moorgate",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "aldgate",
+      "name": "Aldgate",
+      "lines": [
+        "circle",
+        "metropolitan"
+      ],
+      "borough": "City of London",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "high-street-kensington",
+      "name": "High Street Kensington",
+      "lines": [
+        "circle"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bayswater",
+      "name": "Bayswater",
+      "lines": [
+        "circle"
+      ],
+      "borough": "Westminster",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "finchley-road",
+      "name": "Finchley Road",
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wembley-park",
+      "name": "Wembley Park",
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "preston-road",
+      "name": "Preston Road",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "northwick-park",
+      "name": "Northwick Park",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Harrow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "harrow-on-the-hill",
+      "name": "Harrow-on-the-Hill",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-harrow",
+      "name": "West Harrow",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "rayners-lane",
+      "name": "Rayners Lane",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "eastcote",
+      "name": "Eastcote",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ruislip-manor",
+      "name": "Ruislip Manor",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ruislip",
+      "name": "Ruislip",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ickenham",
+      "name": "Ickenham",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hillingdon",
+      "name": "Hillingdon",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "uxbridge",
+      "name": "Uxbridge",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "north-harrow",
+      "name": "North Harrow",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "pinner",
+      "name": "Pinner",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Harrow",
+      "zone": "5/6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "northwood",
+      "name": "Northwood",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "northwood-hills",
+      "name": "Northwood Hills",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "moor-park",
+      "name": "Moor Park",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Three Rivers",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "rickmansworth",
+      "name": "Rickmansworth",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Three Rivers",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chorleywood",
+      "name": "Chorleywood",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Three Rivers",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chalfont-latimer",
+      "name": "Chalfont & Latimer",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Chiltern",
+      "zone": "8",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "amersham",
+      "name": "Amersham",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Chiltern",
+      "zone": "9",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chesham",
+      "name": "Chesham",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Chiltern",
+      "zone": "9",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "croxley",
+      "name": "Croxley",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Three Rivers",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "watford",
+      "name": "Watford",
+      "lines": [
+        "metropolitan"
+      ],
+      "borough": "Watford",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "cockfosters",
+      "name": "Cockfosters",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Enfield",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "oakwood",
+      "name": "Oakwood",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Enfield",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "southgate",
+      "name": "Southgate",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Enfield",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "arnos-grove",
+      "name": "Arnos Grove",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Enfield",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bounds-green",
+      "name": "Bounds Green",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Haringey",
+      "zone": "3/4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wood-green",
+      "name": "Wood Green",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "turnpike-lane",
+      "name": "Turnpike Lane",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "caledonian-road",
+      "name": "Caledonian Road",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "russell-square",
+      "name": "Russell Square",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Camden",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "leicester-square",
+      "name": "Leicester Square",
+      "lines": [
+        "piccadilly",
+        "northern"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "green-park",
+      "name": "Green Park",
+      "lines": [
+        "victoria",
+        "jubilee",
+        "piccadilly"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hyde-park-corner",
+      "name": "Hyde Park Corner",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Westminster",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "knightsbridge",
+      "name": "Knightsbridge",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Kensington & Chelsea",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-ealing",
+      "name": "South Ealing",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "northfields",
+      "name": "Northfields",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "boston-manor",
+      "name": "Boston Manor",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "osterley",
+      "name": "Osterley",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hounslow-east",
+      "name": "Hounslow East",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hounslow-central",
+      "name": "Hounslow Central",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hounslow-west",
+      "name": "Hounslow West",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hatton-cross",
+      "name": "Hatton Cross",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Hounslow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "heathrow-terminals-2-3",
+      "name": "Heathrow Terminals 2 & 3",
+      "lines": [
+        "piccadilly",
+        "elizabeth"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "heathrow-terminal-5",
+      "name": "Heathrow Terminal 5",
+      "lines": [
+        "piccadilly",
+        "elizabeth"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "heathrow-terminal-4",
+      "name": "Heathrow Terminal 4",
+      "lines": [
+        "piccadilly",
+        "elizabeth"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "north-ealing",
+      "name": "North Ealing",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "park-royal",
+      "name": "Park Royal",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "alperton",
+      "name": "Alperton",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "sudbury-town",
+      "name": "Sudbury Town",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "sudbury-hill",
+      "name": "Sudbury Hill",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Harrow",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-harrow",
+      "name": "South Harrow",
+      "lines": [
+        "piccadilly"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "walthamstow-central",
+      "name": "Walthamstow Central",
+      "lines": [
+        "victoria",
+        "weaver"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "blackhorse-road",
+      "name": "Blackhorse Road",
+      "lines": [
+        "victoria",
+        "suffragette"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tottenham-hale",
+      "name": "Tottenham Hale",
+      "lines": [
+        "victoria"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "seven-sisters",
+      "name": "Seven Sisters",
+      "lines": [
+        "victoria",
+        "weaver"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stockwell",
+      "name": "Stockwell",
+      "lines": [
+        "victoria",
+        "northern"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brixton",
+      "name": "Brixton",
+      "lines": [
+        "victoria"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stanmore",
+      "name": "Stanmore",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "canons-park",
+      "name": "Canons Park",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Harrow",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "queensbury",
+      "name": "Queensbury",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kingsbury",
+      "name": "Kingsbury",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "neasden",
+      "name": "Neasden",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "dollis-hill",
+      "name": "Dollis Hill",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "willesden-green",
+      "name": "Willesden Green",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kilburn",
+      "name": "Kilburn",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-hampstead",
+      "name": "West Hampstead",
+      "lines": [
+        "jubilee",
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "swiss-cottage",
+      "name": "Swiss Cottage",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "st-johns-wood",
+      "name": "St John's Wood",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Westminster",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "canada-water",
+      "name": "Canada Water",
+      "lines": [
+        "jubilee",
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "canary-wharf",
+      "name": "Canary Wharf",
+      "lines": [
+        "jubilee",
+        "elizabeth"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "north-greenwich",
+      "name": "North Greenwich",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Greenwich",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "canning-town",
+      "name": "Canning Town",
+      "lines": [
+        "jubilee"
+      ],
+      "borough": "Newham",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hayes-harlington",
+      "name": "Hayes & Harlington",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Hillingdon",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "southall",
+      "name": "Southall",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Ealing",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "acton-main-line",
+      "name": "Acton Main Line",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Reading",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "twyford",
+      "name": "Twyford",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Wokingham",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "maidenhead",
+      "name": "Maidenhead",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Windsor & Maidenhead",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "taplow",
+      "name": "Taplow",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Buckinghamshire",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "burnham",
+      "name": "Burnham",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Buckinghamshire",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "slough",
+      "name": "Slough",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Slough",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "langley",
+      "name": "Langley",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Slough",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "iver",
+      "name": "Iver",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Buckinghamshire",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-drayton",
+      "name": "West Drayton",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Hillingdon",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "custom-house",
+      "name": "Custom House",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "woolwich",
+      "name": "Woolwich",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Greenwich",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "abbey-wood",
+      "name": "Abbey Wood",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Bexley",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "maryland",
+      "name": "Maryland",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "forest-gate",
+      "name": "Forest Gate",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "manor-park",
+      "name": "Manor Park",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Newham",
+      "zone": "3/4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "ilford",
+      "name": "Ilford",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "seven-kings",
+      "name": "Seven Kings",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "goodmayes",
+      "name": "Goodmayes",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Redbridge",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chadwell-heath",
+      "name": "Chadwell Heath",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "romford",
+      "name": "Romford",
+      "lines": [
+        "liberty",
+        "elizabeth"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "gidea-park",
+      "name": "Gidea Park",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "harold-wood",
+      "name": "Harold Wood",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brentwood",
+      "name": "Brentwood",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Essex",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shenfield",
+      "name": "Shenfield",
+      "lines": [
+        "elizabeth"
+      ],
+      "borough": "Essex",
+      "zone": "OOZ",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "emerson-park",
+      "name": "Emerson Park",
+      "lines": [
+        "liberty"
+      ],
+      "borough": "Havering",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-hampstead",
+      "name": "South Hampstead",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kilburn-high-road",
+      "name": "Kilburn High Road",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "headstone-lane",
+      "name": "Headstone Lane",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Harrow",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hatch-end",
+      "name": "Hatch End",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Harrow",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "carpenders-park",
+      "name": "Carpenders Park",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Hertsmere",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bushey",
+      "name": "Bushey",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Hertsmere",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "watford-high-street",
+      "name": "Watford High Street",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Watford",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "watford-junction",
+      "name": "Watford Junction",
+      "lines": [
+        "lioness"
+      ],
+      "borough": "Watford",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "canonbury",
+      "name": "Canonbury",
+      "lines": [
+        "mildmay",
+        "windrush"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "caledonian-road-barnsbury",
+      "name": "Caledonian Road & Barnsbury",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "camden-road",
+      "name": "Camden Road",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kentish-town-west",
+      "name": "Kentish Town West",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "gospel-oak",
+      "name": "Gospel Oak",
+      "lines": [
+        "suffragette",
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hampstead-heath",
+      "name": "Hampstead Heath",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "finchley-road-frognal",
+      "name": "Finchley Road & Frognal",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brondesbury",
+      "name": "Brondesbury",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brondesbury-park",
+      "name": "Brondesbury Park",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "kensal-rise",
+      "name": "Kensal Rise",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Brent",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "acton-central",
+      "name": "Acton Central",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-acton",
+      "name": "South Acton",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Ealing",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shepherds-bush-overground",
+      "name": "Shepherd's Bush",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "imperial-wharf",
+      "name": "Imperial Wharf",
+      "lines": [
+        "mildmay"
+      ],
+      "borough": "Hammersmith & Fulham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapham-junction",
+      "name": "Clapham Junction",
+      "lines": [
+        "mildmay",
+        "windrush"
+      ],
+      "borough": "Wandsworth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "upper-holloway",
+      "name": "Upper Holloway",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Islington",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "crouch-hill",
+      "name": "Crouch Hill",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Islington",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "harringay-green-lanes",
+      "name": "Harringay Green Lanes",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-tottenham",
+      "name": "South Tottenham",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "walthamstow-queens-road",
+      "name": "Walthamstow Queen's Road",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "leyton-midland-road",
+      "name": "Leyton Midland Road",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "leytonstone-high-road",
+      "name": "Leytonstone High Road",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wanstead-park",
+      "name": "Wanstead Park",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Redbridge",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "woodgrange-park",
+      "name": "Woodgrange Park",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Newham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "barking-riverside",
+      "name": "Barking Riverside",
+      "lines": [
+        "suffragette"
+      ],
+      "borough": "Barking & Dagenham",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "cambridge-heath",
+      "name": "Cambridge Heath",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "london-fields",
+      "name": "London Fields",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hackney-downs",
+      "name": "Hackney Downs",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapton",
+      "name": "Clapton",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "st-james-street",
+      "name": "St James Street",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wood-street",
+      "name": "Wood Street",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "chingford",
+      "name": "Chingford",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Waltham Forest",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "rectory-road",
+      "name": "Rectory Road",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "stamford-hill",
+      "name": "Stamford Hill",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Hackney",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bruce-grove",
+      "name": "Bruce Grove",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "silver-street",
+      "name": "Silver Street",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "edmonton-green",
+      "name": "Edmonton Green",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "bush-hill-park",
+      "name": "Bush Hill Park",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "enfield-town",
+      "name": "Enfield Town",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "southbury",
+      "name": "Southbury",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "turkey-street",
+      "name": "Turkey Street",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Enfield",
+      "zone": "6",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "theobalds-grove",
+      "name": "Theobalds Grove",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Broxbourne",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "cheshunt",
+      "name": "Cheshunt",
+      "lines": [
+        "weaver"
+      ],
+      "borough": "Broxbourne",
+      "zone": "7",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "dalston-junction",
+      "name": "Dalston Junction",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "haggerston",
+      "name": "Haggerston",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Hackney",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "shadwell",
+      "name": "Shadwell",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wapping",
+      "name": "Wapping",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Tower Hamlets",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "rotherhithe",
+      "name": "Rotherhithe",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Southwark",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brockley",
+      "name": "Brockley",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "forest-hill",
+      "name": "Forest Hill",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lewisham",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Bromley",
+      "zone": "3/4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "penge-west",
+      "name": "Penge West",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Bromley",
+      "zone": "3/4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "anerley",
+      "name": "Anerley",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Bromley",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "norwood-junction",
+      "name": "Norwood Junction",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Croydon",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-croydon",
+      "name": "West Croydon",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Croydon",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapham-high-street",
+      "name": "Clapham High Street",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "wandsworth-road",
+      "name": "Wandsworth Road",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "battersea-park",
+      "name": "Battersea Park",
+      "lines": [
+        "windrush"
+      ],
+      "borough": "Wandsworth",
+      "zone": "1/2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "edgware",
+      "name": "Edgware",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "burnt-oak",
+      "name": "Burnt Oak",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "colindale",
+      "name": "Colindale",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hendon-central",
+      "name": "Hendon Central",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "brent-cross",
+      "name": "Brent Cross",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "golders-green",
+      "name": "Golders Green",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "hampstead",
+      "name": "Hampstead",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "belsize-park",
+      "name": "Belsize Park",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "high-barnet",
+      "name": "High Barnet",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "5",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "totteridge-whetstone",
+      "name": "Totteridge & Whetstone",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "woodside-park",
+      "name": "Woodside Park",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "west-finchley",
+      "name": "West Finchley",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "finchley-central",
+      "name": "Finchley Central",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "highgate",
+      "name": "Highgate",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Haringey",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "archway",
+      "name": "Archway",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Islington",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "mill-hill-east",
+      "name": "Mill Hill East",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Barnet",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "mornington-crescent",
+      "name": "Mornington Crescent",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Camden",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "oval",
+      "name": "Oval",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapham-north",
+      "name": "Clapham North",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapham-common",
+      "name": "Clapham Common",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Lambeth",
+      "zone": "2",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "clapham-south",
+      "name": "Clapham South",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "2/3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "balham",
+      "name": "Balham",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tooting-bec",
+      "name": "Tooting Bec",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "tooting-broadway",
+      "name": "Tooting Broadway",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "colliers-wood",
+      "name": "Colliers Wood",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Merton",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "south-wimbledon",
+      "name": "South Wimbledon",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Merton",
+      "zone": "3",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "morden",
+      "name": "Morden",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Merton",
+      "zone": "4",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "nine-elms",
+      "name": "Nine Elms",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    },
+    {
+      "id": "battersea-power-station",
+      "name": "Battersea Power Station",
+      "lines": [
+        "northern"
+      ],
+      "borough": "Wandsworth",
+      "zone": "1",
+      "lat": null,
+      "lon": null,
+      "verified": false
+    }
   ]
 }

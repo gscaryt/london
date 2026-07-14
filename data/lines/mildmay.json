@@ -1,0 +1,99 @@
+{
+  "line": "mildmay",
+  "name": "Mildmay line",
+  "color": "#0077AD",
+  "route": [
+    {
+      "stations": [
+        "stratford",
+        "hackney-wick",
+        "homerton",
+        "hackney-central",
+        "dalston-kingsland",
+        "canonbury",
+        "highbury-islington",
+        "caledonian-road-barnsbury",
+        "camden-road",
+        "kentish-town-west",
+        "gospel-oak",
+        "hampstead-heath",
+        "finchley-road-frognal",
+        "west-hampstead",
+        "brondesbury",
+        "brondesbury-park",
+        "kensal-rise",
+        "willesden-junction"
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "richmond",
+          "name": "Richmond branch",
+          "stations": [
+            "acton-central",
+            "south-acton",
+            "gunnersbury",
+            "kew-gardens",
+            "richmond"
+          ]
+        },
+        {
+          "id": "clapham-junction",
+          "name": "Clapham Junction branch",
+          "stations": [
+            "shepherds-bush-overground",
+            "kensington-olympia",
+            "west-brompton",
+            "imperial-wharf",
+            "clapham-junction"
+          ]
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "hc-001",
+      "stationId": "hackney-central",
+      "category": "indie_pub",
+      "title": "The Crown",
+      "desc": "Traditional boozer on Hackney Central's main street, kept as old-school as London pub culture gets.",
+      "address": "418 Mare Street, London E8 1HP",
+      "tags": [
+        "city-stack"
+      ],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hom-001",
+      "stationId": "homerton",
+      "category": "indie_pub",
+      "title": "The Hawke",
+      "desc": "Pub on the Victoria Park side of Homerton, run by a landlord who treats the drinks list like an art project.",
+      "address": "233-235 Victoria Park Road, London E9 7HD",
+      "tags": [
+        "city-stack"
+      ],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "hwk-001",
+      "stationId": "hackney-wick",
+      "category": "indie_pub",
+      "title": "The Lock Inn",
+      "desc": "Canalside pub by the Olympic Park with a rotating line-up of craft beer and a properly tranquil waterside spot.",
+      "address": "26 East Bay Lane, London E15 2GW",
+      "tags": [
+        "city-stack",
+        "canalside",
+        "outdoor"
+      ],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

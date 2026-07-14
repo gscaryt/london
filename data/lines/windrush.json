@@ -1,0 +1,119 @@
+{
+  "line": "windrush",
+  "name": "Windrush line",
+  "color": "#ED1B00",
+  "route": [
+    {
+      "stations": [
+        "highbury-islington",
+        "canonbury",
+        "dalston-junction",
+        "haggerston",
+        "hoxton",
+        "shoreditch-high-street",
+        "whitechapel",
+        "shadwell",
+        "wapping",
+        "rotherhithe",
+        "canada-water",
+        "surrey-quays"
+      ]
+    },
+    {
+      "branches": [
+        {
+          "id": "new-cross",
+          "name": "New Cross branch",
+          "stations": [
+            "new-cross"
+          ]
+        },
+        {
+          "id": "west-croydon",
+          "name": "West Croydon branch",
+          "stations": [
+            "new-cross-gate",
+            "brockley",
+            "honor-oak-park",
+            "forest-hill",
+            "sydenham",
+            "penge-west",
+            "anerley",
+            "norwood-junction",
+            "west-croydon"
+          ]
+        },
+        {
+          "id": "crystal-palace",
+          "name": "Crystal Palace branch",
+          "stations": [
+            "new-cross-gate",
+            "brockley",
+            "honor-oak-park",
+            "forest-hill",
+            "sydenham",
+            "crystal-palace"
+          ]
+        },
+        {
+          "id": "clapham-junction",
+          "name": "Clapham Junction branch",
+          "stations": [
+            "queens-road-peckham",
+            "peckham-rye",
+            "denmark-hill",
+            "clapham-high-street",
+            "wandsworth-road",
+            "battersea-park",
+            "clapham-junction"
+          ]
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "hx-001",
+      "stationId": "hoxton",
+      "category": "indie_pub",
+      "title": "Howl at the Moon",
+      "desc": "Proper Irish pub on Hoxton Street itself, with Irish trad sessions and reliably good Guinness.",
+      "address": "178 Hoxton Street, London N1 5LH",
+      "tags": [
+        "city-stack",
+        "live-music"
+      ],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "dh-001",
+      "stationId": "denmark-hill",
+      "category": "indie_pub",
+      "title": "The Joiners Arms",
+      "desc": "Irish pub right on Denmark Hill with a lively live-music scene and a rooftop terrace.",
+      "address": "35 Denmark Hill, London SE5 8RS",
+      "tags": [
+        "city-stack",
+        "live-music",
+        "outdoor"
+      ],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "shs-001",
+      "stationId": "shoreditch-high-street",
+      "category": "indie_pub",
+      "title": "The Crown and Shuttle",
+      "desc": "Victorian Shoreditch institution turned craft beer pub, right by the station.",
+      "address": "226 Shoreditch High Street, London E1 6PJ",
+      "tags": [
+        "city-stack",
+        "victorian"
+      ],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

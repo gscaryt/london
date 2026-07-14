@@ -1,0 +1,100 @@
+{
+  "line": "weaver",
+  "name": "Weaver line",
+  "color": "#823A62",
+  "route": [
+    {
+      "branches": [
+        {
+          "id": "chingford",
+          "name": "Chingford branch",
+          "stations": [
+            "liverpool-street",
+            "bethnal-green",
+            "cambridge-heath",
+            "london-fields",
+            "hackney-downs",
+            "clapton",
+            "st-james-street",
+            "walthamstow-central",
+            "wood-street",
+            "highams-park",
+            "chingford"
+          ]
+        },
+        {
+          "id": "enfield-town",
+          "name": "Enfield Town branch",
+          "stations": [
+            "liverpool-street",
+            "bethnal-green",
+            "cambridge-heath",
+            "london-fields",
+            "hackney-downs",
+            "rectory-road",
+            "stoke-newington",
+            "stamford-hill",
+            "seven-sisters",
+            "bruce-grove",
+            "white-hart-lane",
+            "silver-street",
+            "edmonton-green",
+            "bush-hill-park",
+            "enfield-town"
+          ]
+        },
+        {
+          "id": "cheshunt",
+          "name": "Cheshunt branch",
+          "stations": [
+            "liverpool-street",
+            "bethnal-green",
+            "cambridge-heath",
+            "london-fields",
+            "hackney-downs",
+            "rectory-road",
+            "stoke-newington",
+            "stamford-hill",
+            "seven-sisters",
+            "bruce-grove",
+            "white-hart-lane",
+            "silver-street",
+            "edmonton-green",
+            "southbury",
+            "turkey-street",
+            "theobalds-grove",
+            "cheshunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "whl-001",
+      "stationId": "white-hart-lane",
+      "category": "indie_pub",
+      "title": "The Victoria Tottenham",
+      "desc": "Mid-1800s pub near the Spurs stadium, a proper local through the area's redevelopment.",
+      "address": "34 Scotland Green, London N17 9TT",
+      "tags": [
+        "city-stack"
+      ],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hap-001",
+      "stationId": "highams-park",
+      "category": "indie_pub",
+      "title": "The Royal Oak Highams",
+      "desc": "Converted former cottage that kept its Edwardian features, out toward Woodford Green.",
+      "address": "320 Hale End Road, Woodford Green IG8 9LN",
+      "tags": [
+        "city-stack"
+      ],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

@@ -53,6 +53,35 @@ Navigation is **station-first, not borough-first**: tube lines cut across boroug
 }
 ```
 
+#### Forked lines: `route`
+
+Lines with real-world branches (Northern, Central, District, Piccadilly, Metropolitan, Elizabeth, Mildmay, Weaver, Windrush) use `route` instead of `stationOrder`:
+
+```json
+{
+  "line": "northern",
+  "name": "Northern",
+  "color": "#000000",
+  "route": [
+    { "branches": [
+        { "id": "edgware", "name": "Edgware branch", "stations": ["edgware", "..."] },
+        { "id": "high-barnet", "name": "High Barnet branch", "stations": ["high-barnet", "..."] }
+    ]},
+    { "stations": ["camden-town", "euston", "..."] },
+    { "branches": [
+        { "id": "morden", "name": "Morden branch", "stations": ["oval", "..."] },
+        { "id": "battersea", "name": "Battersea branch", "stations": ["nine-elms", "..."] }
+    ]}
+  ],
+  "entries": [ Entry, Entry, ... ]
+}
+```
+
+- `route` is an ordered array of segments. A segment is either `{ "stations": [...] }` (a fixed trunk, always shown) or `{ "branches": [...] }` (a fork — the line view renders a small pill toggle so the rider picks one; the strip below shows only the chosen branch's stations).
+- Shared/trunk stations that lie on more than one branch simply appear in each branch's `stations` array — no dedup needed, since entry counts and station pages are keyed by `stationId`, not by which branch list rendered them.
+- Lines without any real fork just keep the plain `stationOrder` array (unchanged, fully backward compatible).
+- London Overground was split into six branded lines in 2024 (Liberty, Lioness, Mildmay, Suffragette, Weaver, Windrush) — treat each as its own line file, not a shared "overground" line.
+
 ### Entry
 ```json
 {
@@ -90,7 +119,7 @@ Navigation is **station-first, not borough-first**: tube lines cut across boroug
 
 ## 4. Screens
 
-1. **Home**: search box (fuzzy match on station names, entry titles, and tags — so "roman" finds Clapham's stone without knowing the station) + line list rendered with official roundel colours. "Browse by borough" as a secondary link.
+1. **Home**: search box (fuzzy match on station names, entry titles, and tags — so "roman" finds Clapham's stone without knowing the station) + line list rendered with official roundel colours. "Browse by borough" and "View official TfL tube map" (external link, new tab) as secondary links — the app deliberately doesn't embed the full convoluted map, only per-line strips.
 2. **Line view**: vertical "tube map strip" — coloured line down the left edge with station ticks, stations in `stationOrder`. Each row shows an entry-count badge (doubles as the coverage dashboard).
 3. **Station view**: sticky header (name, line roundel chips, borough, zone, map link if coords present) + sticky horizontal filter-chip row (categories and tags present on this page, multi-select, instant). Entries grouped by category; `spoons` and `fact` pinned near the top.
 4. **Add entry**: form (station picker pre-filled from context, category, title, desc, address, url, tags) with two actions: **Save locally** and **Suggest on GitHub**.
@@ -100,7 +129,8 @@ Navigation is **station-first, not borough-first**: tube lines cut across boroug
 - **Collapsed cards, tap to expand (accordion, one open at a time).** Collapsed = single row: colour-coded category chip + title + first ~60 chars of desc. Target 8–10 collapsed cards per screen. Expanded = full desc, address, "Open in Maps" button, external link, tags, source badge, stretch/verify markers.
 - Badges: `stretch` → "bit of a walk"; `verify` → subtle dot/asterisk; `source: user` → "mine"; `source: suggested` → "suggested".
 - Category chip palette: fixed, distinct from line colours; define once as CSS variables.
-- TfL line colours: bakerloo `#B36305`, central `#E32017`, circle `#FFD300`, district `#00782A`, hammersmith-city `#F3A9BB`, jubilee `#A0A5A9`, metropolitan `#9B0056`, northern `#000000`, piccadilly `#003688`, victoria `#0098D4`, waterloo-city `#95CDBA`, elizabeth `#6950A1`, overground `#EE7C0E`.
+- TfL line colours: bakerloo `#B36305`, central `#E32017`, circle `#FFD300`, district `#00782A`, hammersmith-city `#F3A9BB`, jubilee `#A0A5A9`, metropolitan `#9B0056`, northern `#000000`, piccadilly `#003688`, victoria `#0098D4`, waterloo-city `#95CDBA`, elizabeth `#6950A1`.
+- Overground (split into six branded lines since 2024, official TfL colour standard): liberty `#5D6061`, lioness `#FAA61A`, mildmay `#0077AD`, suffragette `#5BBD72`, weaver `#823A62`, windrush `#ED1B00`.
 - System font stack; tight vertical rhythm; generous title type scale. Dark mode via CSS variables + `prefers-color-scheme` from day one.
 
 ## 6. Local entries (localStorage)
