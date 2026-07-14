@@ -85,6 +85,15 @@
       "verify": true
     },
     {
+      "id": "hw-008",
+      "stationId": "harrow-wealdstone",
+      "category": "fact",
+      "title": "The vanished 7th platform",
+      "desc": "The station had a 7th platform on the east side, serving the branch line to Belmont — withdrawn in October 1964 under the Beeching cuts. It lingered a while longer as a siding before being removed entirely.",
+      "tags": ["free"],
+      "source": "curated"
+    },
+    {
       "id": "wa-001",
       "stationId": "warwick-avenue",
       "category": "sight",
@@ -203,6 +212,17 @@
       "address": "Regent's Park, NW1",
       "tags": ["free", "outdoor", "picnic"],
       "source": "curated"
+    },
+    {
+      "id": "pc-001",
+      "stationId": "piccadilly-circus",
+      "category": "indie_pub",
+      "title": "Waxy O'Connor's",
+      "desc": "Sprawling, cavernous Irish pub just off the Circus, built over several levels around a tree growing through the building — live music every night.",
+      "address": "14-16 Rupert Street, London W1D 6DD",
+      "tags": ["live-music"],
+      "source": "curated",
+      "verify": true
     }
   ]
 }

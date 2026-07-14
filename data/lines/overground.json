@@ -1,0 +1,105 @@
+{
+  "line": "overground",
+  "name": "London Overground",
+  "color": "#EE7C0E",
+  "stationOrder": [
+    "harrow-wealdstone", "kenton", "south-kenton", "north-wembley", "wembley-central",
+    "stonebridge-park", "harlesden", "willesden-junction", "kensal-green", "queens-park",
+    "highbury-islington", "dalston-kingsland", "hackney-central", "homerton", "hackney-wick",
+    "hoxton", "shoreditch-high-street",
+    "surrey-quays", "queens-road-peckham", "peckham-rye", "denmark-hill",
+    "new-cross-gate", "new-cross", "honor-oak-park", "sydenham",
+    "stoke-newington", "white-hart-lane", "highams-park"
+  ],
+  "entries": [
+    {
+      "id": "hx-001",
+      "stationId": "hoxton",
+      "category": "indie_pub",
+      "title": "Howl at the Moon",
+      "desc": "Proper Irish pub on Hoxton Street itself, with Irish trad sessions and reliably good Guinness.",
+      "address": "178 Hoxton Street, London N1 5LH",
+      "tags": ["city-stack", "live-music"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "dh-001",
+      "stationId": "denmark-hill",
+      "category": "indie_pub",
+      "title": "The Joiners Arms",
+      "desc": "Irish pub right on Denmark Hill with a lively live-music scene and a rooftop terrace.",
+      "address": "35 Denmark Hill, London SE5 8RS",
+      "tags": ["city-stack", "live-music", "outdoor"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hc-001",
+      "stationId": "hackney-central",
+      "category": "indie_pub",
+      "title": "The Crown",
+      "desc": "Traditional boozer on Hackney Central's main street, kept as old-school as London pub culture gets.",
+      "address": "418 Mare Street, London E8 1HP",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "shs-001",
+      "stationId": "shoreditch-high-street",
+      "category": "indie_pub",
+      "title": "The Crown and Shuttle",
+      "desc": "Victorian Shoreditch institution turned craft beer pub, right by the station.",
+      "address": "226 Shoreditch High Street, London E1 6PJ",
+      "tags": ["city-stack", "victorian"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hom-001",
+      "stationId": "homerton",
+      "category": "indie_pub",
+      "title": "The Hawke",
+      "desc": "Pub on the Victoria Park side of Homerton, run by a landlord who treats the drinks list like an art project.",
+      "address": "233-235 Victoria Park Road, London E9 7HD",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "whl-001",
+      "stationId": "white-hart-lane",
+      "category": "indie_pub",
+      "title": "The Victoria Tottenham",
+      "desc": "Mid-1800s pub near the Spurs stadium, a proper local through the area's redevelopment.",
+      "address": "34 Scotland Green, London N17 9TT",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hap-001",
+      "stationId": "highams-park",
+      "category": "indie_pub",
+      "title": "The Royal Oak Highams",
+      "desc": "Converted former cottage that kept its Edwardian features, out toward Woodford Green.",
+      "address": "320 Hale End Road, Woodford Green IG8 9LN",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "hwk-001",
+      "stationId": "hackney-wick",
+      "category": "indie_pub",
+      "title": "The Lock Inn",
+      "desc": "Canalside pub by the Olympic Park with a rotating line-up of craft beer and a properly tranquil waterside spot.",
+      "address": "26 East Bay Lane, London E15 2GW",
+      "tags": ["city-stack", "canalside", "outdoor"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

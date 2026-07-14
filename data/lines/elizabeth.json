@@ -1,0 +1,32 @@
+{
+  "line": "elizabeth",
+  "name": "Elizabeth line",
+  "color": "#6950A1",
+  "stationOrder": [
+    "hanwell", "west-ealing", "paddington", "farringdon"
+  ],
+  "entries": [
+    {
+      "id": "hnw-001",
+      "stationId": "hanwell",
+      "category": "indie_pub",
+      "title": "The Fox",
+      "desc": "1848 canalside pub built as the Royal Brewery House, right along the Grand Union near Hanwell.",
+      "address": "Green Lane, London W7 2PJ",
+      "tags": ["city-stack", "canalside"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "wea-001",
+      "stationId": "west-ealing",
+      "category": "indie_pub",
+      "title": "The Old Hat",
+      "desc": "Rustic West Ealing local with original wood panelling and leather seats.",
+      "address": "128 Broadway, London W13 0SY",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "line": "district",
+  "name": "District",
+  "color": "#00782A",
+  "stationOrder": [
+    "paddington", "embankment", "temple", "tower-hill",
+    "bow-road", "bromley-by-bow", "stepney-green", "victoria",
+    "ravenscourt-park", "east-putney", "wimbledon-park"
+  ],
+  "entries": [
+    {
+      "id": "bwr-001",
+      "stationId": "bow-road",
+      "category": "indie_pub",
+      "title": "The Bow Bells",
+      "desc": "Bright orange 1860 pub right on Bow Road, said by locals to be haunted.",
+      "address": "116 Bow Road, London E3 3AA",
+      "tags": ["city-stack", "dark"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "stg-001",
+      "stationId": "stepney-green",
+      "category": "indie_pub",
+      "title": "The Peacock",
+      "desc": "1881 backstreet pub off Stepney Green, well away from the main roads.",
+      "address": "145 Aylward Street, London E1 0QW",
+      "tags": ["city-stack", "hidden"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "tpl-001",
+      "stationId": "temple",
+      "category": "indie_pub",
+      "title": "The Devereux",
+      "desc": "Built in 1677 as the Grecian Coffee House and once frequented by Isaac Newton, a couple of minutes from Temple station.",
+      "address": "20 Devereux Court, London WC2R 3JJ",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "twh-001",
+      "stationId": "tower-hill",
+      "category": "indie_pub",
+      "title": "The Fenchurch",
+      "desc": "Former Lloyds Bank branch converted into a pub with a six-figure fit-out, a short walk from Tower Hill.",
+      "address": "72 Fenchurch Street, London EC3M 4BR",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "eap-001",
+      "stationId": "east-putney",
+      "category": "indie_pub",
+      "title": "The Bricklayers Arms",
+      "desc": "Putney's oldest surviving pub, built in 1826, tucked just off the river.",
+      "address": "32 Waterman Street, London SW15 1DD",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "wbp-001",
+      "stationId": "wimbledon-park",
+      "category": "indie_pub",
+      "title": "The Garden Shed",
+      "desc": "Wimbledon's oldest pub (1838), plant-themed inside and out.",
+      "address": "145 Haydons Road, London SW19 1AN",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    }
+  ]
+}

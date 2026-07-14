@@ -1,0 +1,32 @@
+{
+  "line": "piccadilly",
+  "name": "Piccadilly",
+  "color": "#003688",
+  "stationOrder": [
+    "finsbury-park", "holloway-road", "covent-garden", "piccadilly-circus"
+  ],
+  "entries": [
+    {
+      "id": "hlr-001",
+      "stationId": "holloway-road",
+      "category": "indie_pub",
+      "title": "The Hercules",
+      "desc": "Nearly 150 years on Holloway Road, refitted throughout with reclaimed materials.",
+      "address": "504 Holloway Road, London N7 6JA",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "cvg-001",
+      "stationId": "covent-garden",
+      "category": "indie_pub",
+      "title": "The Bull and Egret",
+      "desc": "First licensed in 1704 on Covent Garden's main drag, back in independent ownership after years as a chain pub.",
+      "address": "81-82 Long Acre, London WC2E 9NG",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

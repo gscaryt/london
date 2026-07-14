@@ -24,7 +24,7 @@ const LINE_NAMES = {
 // station page — spoons and fact are pinned near the top per spec.
 const CATEGORY_ORDER = ['spoons', 'fact', 'indie_pub', 'history', 'sight', 'food', 'oddity', 'park'];
 const CATEGORY_LABELS = {
-  spoons: 'Spoons',
+  spoons: 'Wetherspoons',
   indie_pub: 'Indie Pub',
   history: 'History',
   fact: 'Fact',

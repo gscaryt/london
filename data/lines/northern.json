@@ -1,0 +1,136 @@
+{
+  "line": "northern",
+  "name": "Northern",
+  "color": "#000000",
+  "stationOrder": [
+    "east-finchley", "tufnell-park", "kentish-town", "chalk-farm", "camden-town",
+    "warren-street", "goodge-street", "charing-cross", "embankment", "waterloo",
+    "angel", "old-street", "bank", "london-bridge", "borough", "elephant-castle",
+    "kennington"
+  ],
+  "entries": [
+    {
+      "id": "gs-001",
+      "stationId": "goodge-street",
+      "category": "indie_pub",
+      "title": "The Queen Charlotte",
+      "desc": "City Stack pub right on Goodge Street — returned to independent hands in 2025, with hand-painted artisan signage above the bar.",
+      "address": "43 Goodge Street, London W1T 1TA",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "ct-001",
+      "stationId": "camden-town",
+      "category": "indie_pub",
+      "title": "The Good Mixer",
+      "desc": "Punk-scene stalwart just off Camden High Street, long associated with the Britpop pub crawl — regular live music.",
+      "address": "30 Inverness Street, London NW1 7HJ",
+      "tags": ["city-stack", "live-music"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "ct-002",
+      "stationId": "camden-town",
+      "category": "indie_pub",
+      "title": "The Colonel Fawcett",
+      "desc": "Backstreet pub off Camden Road with over 100 gins on the shelf and an award-winning Sunday roast.",
+      "address": "1 Randolph Street, London NW1 0SS",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "kt-001",
+      "stationId": "kentish-town",
+      "category": "indie_pub",
+      "title": "The Rose & Crown",
+      "desc": "Local pub off the high street with a sunken beer garden and a rotating line-up of London craft beers.",
+      "address": "71-73 Torriano Avenue, London NW5 2SG",
+      "tags": ["city-stack", "outdoor"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "cf-001",
+      "stationId": "chalk-farm",
+      "category": "indie_pub",
+      "title": "The Princess of Wales",
+      "desc": "Primrose Hill gastropub brewing its own lager, trading under some name at this spot for around 150 years.",
+      "address": "22 Chalcot Road, London NW1 8LL",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "stretch": true,
+      "verify": true
+    },
+    {
+      "id": "wrs-001",
+      "stationId": "warren-street",
+      "category": "indie_pub",
+      "title": "The Smugglers Tavern",
+      "desc": "Georgian pub right by the station, fitted out with a full nautical/smugglers theme.",
+      "address": "28 Warren Street, London W1T 5ND",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "ef-001",
+      "stationId": "east-finchley",
+      "category": "indie_pub",
+      "title": "The Windsor Castle",
+      "desc": "Local East Finchley pub with a fully homemade menu and a deliberately minimal-waste kitchen.",
+      "address": "The Walks, London N2 8DL",
+      "tags": ["city-stack", "food"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "os-001",
+      "stationId": "old-street",
+      "category": "indie_pub",
+      "title": "The Prince Arthur",
+      "desc": "18th-century pub built for local seamstresses, now run by a former professional boxer.",
+      "address": "49 Brunswick Place, London N1 6EB",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "bk-001",
+      "stationId": "bank",
+      "category": "indie_pub",
+      "title": "The Masons Arms",
+      "desc": "Tucked down an alley in the Square Mile, serving hearty pub grub with mains under a tenner.",
+      "address": "12-14 Masons Avenue, London EC2V 5BT",
+      "tags": ["city-stack", "hidden", "food"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "bor-001",
+      "stationId": "borough",
+      "category": "indie_pub",
+      "title": "The Blue Maid",
+      "desc": "One of London's oldest pubs, right on Borough High Street — reputedly turns up in Dickens.",
+      "address": "173 Borough High Street, London SE1 1HR",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "kn-001",
+      "stationId": "kennington",
+      "category": "indie_pub",
+      "title": "The Pilgrim",
+      "desc": "Former glass factory converted into a pub, with two separate, individually decorated beer gardens.",
+      "address": "247 Kennington Lane, London SE11 5QU",
+      "tags": ["city-stack", "outdoor"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

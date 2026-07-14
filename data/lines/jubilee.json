@@ -1,0 +1,21 @@
+{
+  "line": "jubilee",
+  "name": "Jubilee",
+  "color": "#A0A5A9",
+  "stationOrder": [
+    "baker-street", "waterloo", "southwark", "london-bridge", "bermondsey"
+  ],
+  "entries": [
+    {
+      "id": "lbr-001",
+      "stationId": "london-bridge",
+      "category": "indie_pub",
+      "title": "The Kings Arms",
+      "desc": "1825 pub near London Bridge with eclectic décor and a candlelit back room.",
+      "address": "251 Tooley Street, London SE1 2JX",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}

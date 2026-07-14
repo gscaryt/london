@@ -1,0 +1,33 @@
+{
+  "line": "hammersmith-city",
+  "name": "Hammersmith & City",
+  "color": "#F3A9BB",
+  "stationOrder": [
+    "paddington", "baker-street", "farringdon",
+    "bow-road", "bromley-by-bow", "stepney-green", "goldhawk-road"
+  ],
+  "entries": [
+    {
+      "id": "ghr-001",
+      "stationId": "goldhawk-road",
+      "category": "indie_pub",
+      "title": "The Duchess",
+      "desc": "Local pub right on Goldhawk Road, an easy stop between Shepherd's Bush and Ravenscourt Park.",
+      "address": "320 Goldhawk Road, London W6 0XF",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "frd-001",
+      "stationId": "farringdon",
+      "category": "indie_pub",
+      "title": "The Sekforde",
+      "desc": "1829 Clerkenwell corner pub that made it through WWII, a short walk from Farringdon.",
+      "address": "34 Sekforde Street, London EC1R 0HA",
+      "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    }
+  ]
+}
