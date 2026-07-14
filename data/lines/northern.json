@@ -4,7 +4,7 @@
   "color": "#000000",
   "stationOrder": [
     "east-finchley", "tufnell-park", "kentish-town", "chalk-farm", "camden-town",
-    "warren-street", "goodge-street", "charing-cross", "embankment", "waterloo",
+    "euston", "warren-street", "goodge-street", "charing-cross", "embankment", "waterloo",
     "angel", "old-street", "bank", "london-bridge", "borough", "elephant-castle",
     "kennington"
   ],
@@ -118,6 +118,17 @@
       "desc": "One of London's oldest pubs, right on Borough High Street — reputedly turns up in Dickens.",
       "address": "173 Borough High Street, London SE1 1HR",
       "tags": ["city-stack"],
+      "source": "curated",
+      "verify": true
+    },
+    {
+      "id": "eu-001",
+      "stationId": "euston",
+      "category": "indie_pub",
+      "title": "Euston Tap",
+      "desc": "Craft beer bar inside one of the Grade II-listed lodges flanking the old station entrance — a big rotating selection at prices that undercut most of central London, with outdoor tables right by the forecourt.",
+      "address": "190 Euston Road, London NW1 2EF",
+      "tags": ["outdoor"],
       "source": "curated",
       "verify": true
     },

@@ -3,9 +3,20 @@
   "name": "Piccadilly",
   "color": "#003688",
   "stationOrder": [
-    "finsbury-park", "holloway-road", "covent-garden", "piccadilly-circus"
+    "manor-house", "finsbury-park", "holloway-road", "covent-garden", "piccadilly-circus"
   ],
   "entries": [
+    {
+      "id": "mh-001",
+      "stationId": "manor-house",
+      "category": "indie_pub",
+      "title": "The Finsbury",
+      "desc": "Green Lanes pub known for some of the best pizza in London and free live gigs — a short walk from the station despite the name pointing to Finsbury Park.",
+      "address": "36 Green Lanes, London N4 2NA",
+      "tags": ["live-music", "food"],
+      "source": "curated",
+      "verify": true
+    },
     {
       "id": "hlr-001",
       "stationId": "holloway-road",
