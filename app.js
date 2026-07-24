@@ -247,6 +247,14 @@ function lineDisplayName(lineId) {
   return LINE_NAMES[lineId] || lineId;
 }
 
+// Branch names in route data are suffixed "branch" for clarity in the JSON
+// (e.g. "Edgware branch"); redundant on the pill itself since picking a
+// branch is the whole point of the row, so drop it to help the row fit
+// without wrapping.
+function branchPillLabel(name) {
+  return String(name || '').replace(/\s+branch$/i, '');
+}
+
 function el(tag, className, html) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -465,8 +473,9 @@ async function renderLineView(root, lineId) {
       const row = el('div', 'branch-pill-row');
       branches.forEach((branch, branchIndex) => {
         const chosen = (selections[segIndex] || 0) === branchIndex;
-        const pill = el('button', 'branch-pill', escapeHtml(branch.name));
+        const pill = el('button', 'branch-pill', escapeHtml(branchPillLabel(branch.name)));
         pill.setAttribute('aria-pressed', String(chosen));
+        pill.title = branch.name;
         pill.addEventListener('click', () => {
           selections[segIndex] = branchIndex;
           renderPills();

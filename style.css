@@ -247,15 +247,11 @@ textarea:focus-visible {
 }
 .branch-pill-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
   padding: 4px 0;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
 }
-.branch-pill-row::-webkit-scrollbar { display: none; }
 .branch-pill {
-  flex-shrink: 0;
   padding: 6px 12px;
   border-radius: 999px;
   border: 1px solid var(--border);
